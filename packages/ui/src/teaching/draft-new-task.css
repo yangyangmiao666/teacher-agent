@@ -1,0 +1,65 @@
+[data-jzx-new-task] {
+  --jzx-pine: var(--color-brand);
+  --jzx-glow: color-mix(in oklab, var(--color-brand) 16%, transparent);
+}
+
+[data-jzx-new-task] .jzx-new-task-glow {
+  border-radius: 999px;
+  background: radial-gradient(closest-side, var(--jzx-glow), transparent 72%);
+  filter: blur(8px);
+}
+
+[data-jzx-new-task] .jzx-new-task-mark {
+  animation: jzx-new-task-float 4.5s ease-in-out infinite;
+}
+
+[data-jzx-new-task] .jzx-new-task-chip {
+  background: color-mix(in oklab, var(--color-surface) 80%, var(--color-accent) 20%);
+}
+
+@keyframes jzx-new-task-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+[data-jzx-draft-prompts] {
+  --jzx-pine: var(--color-brand);
+}
+
+[data-jzx-draft-prompts] .jzx-draft-prompt-card {
+  border: 1px solid var(--color-border);
+  background: color-mix(in oklab, var(--color-card) 92%, var(--color-accent) 8%);
+  transition:
+    transform 160ms ease,
+    border-color 160ms ease,
+    box-shadow 160ms ease;
+}
+
+[data-jzx-draft-prompts] .jzx-draft-prompt-card:hover {
+  transform: translateY(-1px);
+  border-color: color-mix(in oklab, var(--jzx-pine) 40%, var(--color-border));
+  box-shadow: 0 12px 24px -20px color-mix(in oklab, var(--color-brand) 55%, transparent);
+}
+
+[data-jzx-draft-prompts] .jzx-draft-prompt-icon {
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.6rem;
+  color: var(--color-brand);
+  background: var(--color-accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-jzx-new-task] .jzx-new-task-mark,
+  [data-jzx-draft-prompts] .jzx-draft-prompt-card {
+    animation: none;
+    transition: none;
+  }
+}

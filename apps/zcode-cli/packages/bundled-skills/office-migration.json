@@ -1,0 +1,1788 @@
+{
+  "version": 1,
+  "source": "open-jarvis/skills",
+  "skills": [
+    "docx",
+    "xlsx",
+    "pptx",
+    "pdf",
+    "doc-coauthoring",
+    "internal-comms",
+    "data-analysis",
+    "data-visualization",
+    "matplotlib",
+    "matplotlib-chinese-font",
+    "echarts-ai-skill",
+    "canvas-design",
+    "brand-guidelines",
+    "theme-factory",
+    "web-artifacts-builder"
+  ],
+  "files": [
+    {
+      "path": "skills/brand-guidelines/LICENSE.txt",
+      "sourceSha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "path": "skills/brand-guidelines/SKILL.md",
+      "sourceSha256": "1120b3769e2985cefb3d25be981b1f914abeba57ae079b83c20c666c164fa9fe",
+      "sha256": "2f55d5f318bef148ce1cdc93224a8b2f1b1431a1ebafec95c7747d778e8c08e9"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/ArsenalSC-OFL.txt",
+      "sourceSha256": "8ddd61b18ba2c0d0dbe4a691cf5f1a0673f473d02fa0546e67ee88c006aeff6e",
+      "sha256": "8ddd61b18ba2c0d0dbe4a691cf5f1a0673f473d02fa0546e67ee88c006aeff6e"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/ArsenalSC-Regular.ttf",
+      "sourceSha256": "65e6f89df58f68fd905b3add34a79dd6106aa3b3044df0dad9676fff53d504b9",
+      "sha256": "65e6f89df58f68fd905b3add34a79dd6106aa3b3044df0dad9676fff53d504b9"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/BigShoulders-Bold.ttf",
+      "sourceSha256": "b43bcd198b9fdf717dd42aa61a34dba32e01aceaeae659d689afd0ca52c37ea2",
+      "sha256": "b43bcd198b9fdf717dd42aa61a34dba32e01aceaeae659d689afd0ca52c37ea2"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/BigShoulders-OFL.txt",
+      "sourceSha256": "fbc746aabf0eb1847dfd92e2efc4596d79fa897d60b8e64062a22f585508fb3f",
+      "sha256": "fbc746aabf0eb1847dfd92e2efc4596d79fa897d60b8e64062a22f585508fb3f"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/BigShoulders-Regular.ttf",
+      "sourceSha256": "18a879fc71978a4447150705caf880a9da3860083c259fd29e6dc03057b6842a",
+      "sha256": "18a879fc71978a4447150705caf880a9da3860083c259fd29e6dc03057b6842a"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Boldonse-OFL.txt",
+      "sourceSha256": "45cc82ab4032273c0924025ffcf8f0665a68e1a5955e3f7247e5daf1deeb1326",
+      "sha256": "45cc82ab4032273c0924025ffcf8f0665a68e1a5955e3f7247e5daf1deeb1326"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Boldonse-Regular.ttf",
+      "sourceSha256": "cc2e540604565c0f90a7d8d46194a2f42fc9c45512cd2e39bf03b50eb68c35a4",
+      "sha256": "cc2e540604565c0f90a7d8d46194a2f42fc9c45512cd2e39bf03b50eb68c35a4"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/BricolageGrotesque-Bold.ttf",
+      "sourceSha256": "a737b146fe0d77ffe8a86e3cd16700dd431d3b1e420d4fd80e142cd68a1cb50d",
+      "sha256": "a737b146fe0d77ffe8a86e3cd16700dd431d3b1e420d4fd80e142cd68a1cb50d"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/BricolageGrotesque-OFL.txt",
+      "sourceSha256": "0e4f4eb8534bc66a76aca13dd19c1f9731b2008866b29ccff182b764649df9b4",
+      "sha256": "0e4f4eb8534bc66a76aca13dd19c1f9731b2008866b29ccff182b764649df9b4"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/BricolageGrotesque-Regular.ttf",
+      "sourceSha256": "972a6d098c9867ae131d0ea99e221e63976b11a19d4b931c2c7ace525674e4f6",
+      "sha256": "972a6d098c9867ae131d0ea99e221e63976b11a19d4b931c2c7ace525674e4f6"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/CrimsonPro-Bold.ttf",
+      "sourceSha256": "48f191e38355c8db100eb3ce157c20f9302a3b9a37b44a660f77ecfce3986609",
+      "sha256": "48f191e38355c8db100eb3ce157c20f9302a3b9a37b44a660f77ecfce3986609"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/CrimsonPro-Italic.ttf",
+      "sourceSha256": "52318db3526b644e6efa60be0b3ca5a50e40fbe8bd026c261e0aa206f0772267",
+      "sha256": "52318db3526b644e6efa60be0b3ca5a50e40fbe8bd026c261e0aa206f0772267"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/CrimsonPro-OFL.txt",
+      "sourceSha256": "35680d14547b6748b6f362a052a46d22764ce5eccf96e18b74f567bb2ee58114",
+      "sha256": "35680d14547b6748b6f362a052a46d22764ce5eccf96e18b74f567bb2ee58114"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/CrimsonPro-Regular.ttf",
+      "sourceSha256": "48fad08cb1917a7b2f2c6fe5135d6c07743a6663cf7631ec4481108aaf081422",
+      "sha256": "48fad08cb1917a7b2f2c6fe5135d6c07743a6663cf7631ec4481108aaf081422"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/DMMono-OFL.txt",
+      "sourceSha256": "bfe7842fcb88323e2981e24710c25202677385a8c75fb6a87217b275a0247ae3",
+      "sha256": "bfe7842fcb88323e2981e24710c25202677385a8c75fb6a87217b275a0247ae3"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/DMMono-Regular.ttf",
+      "sourceSha256": "f98ada968dc3b6b2c08d3f5caaf266977df0bfe0929372b93df5a06cf2ace450",
+      "sha256": "f98ada968dc3b6b2c08d3f5caaf266977df0bfe0929372b93df5a06cf2ace450"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/EricaOne-OFL.txt",
+      "sourceSha256": "e0de629968b52255548d5fafcf30b24ff9edae0eda362380755a75816404d0fa",
+      "sha256": "e0de629968b52255548d5fafcf30b24ff9edae0eda362380755a75816404d0fa"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/EricaOne-Regular.ttf",
+      "sourceSha256": "db1d89e80e33a8a01beaaac7a85df582857d24a43f1e181461aa7ff5d701476a",
+      "sha256": "db1d89e80e33a8a01beaaac7a85df582857d24a43f1e181461aa7ff5d701476a"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/GeistMono-Bold.ttf",
+      "sourceSha256": "75c0828d5c1ee44b9ef9f4df577bf41595ec362e2ea3f1e558590c9e92c7949d",
+      "sha256": "75c0828d5c1ee44b9ef9f4df577bf41595ec362e2ea3f1e558590c9e92c7949d"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/GeistMono-OFL.txt",
+      "sourceSha256": "6a873c900f584109b13ae0aaf81d6e3cf0a68751a216b03f7b6c68d547057bb4",
+      "sha256": "6a873c900f584109b13ae0aaf81d6e3cf0a68751a216b03f7b6c68d547057bb4"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/GeistMono-Regular.ttf",
+      "sourceSha256": "a55c1b51cda4afeab9e471e7947b85a20f7c8831d7e6b1470c1b7fbdc0f0f15e",
+      "sha256": "a55c1b51cda4afeab9e471e7947b85a20f7c8831d7e6b1470c1b7fbdc0f0f15e"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Gloock-OFL.txt",
+      "sourceSha256": "c0a3f3125ac491ef3d1f09f401be4834c646562f647e44f2bcbc49f0466c656d",
+      "sha256": "c0a3f3125ac491ef3d1f09f401be4834c646562f647e44f2bcbc49f0466c656d"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Gloock-Regular.ttf",
+      "sourceSha256": "e86b4ce66dbd3f1f83eee8db99ec96e0da1128c3f53df0e9b3b7472025dfe960",
+      "sha256": "e86b4ce66dbd3f1f83eee8db99ec96e0da1128c3f53df0e9b3b7472025dfe960"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/IBMPlexMono-Bold.ttf",
+      "sourceSha256": "dbd2a2fb024579438d6400a84e57579bfd2dbe67c306c8fd9fde92a61e4f2eea",
+      "sha256": "dbd2a2fb024579438d6400a84e57579bfd2dbe67c306c8fd9fde92a61e4f2eea"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/IBMPlexMono-OFL.txt",
+      "sourceSha256": "5294ce778857e1eb02e830b6ab06435537d38f43055327e73d03a2d4d57d5123",
+      "sha256": "5294ce778857e1eb02e830b6ab06435537d38f43055327e73d03a2d4d57d5123"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/IBMPlexMono-Regular.ttf",
+      "sourceSha256": "ab08018ccd276b79fb2c636bb95b9c543598f9d50505fe92506fcb4dae7810cd",
+      "sha256": "ab08018ccd276b79fb2c636bb95b9c543598f9d50505fe92506fcb4dae7810cd"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/IBMPlexSerif-Bold.ttf",
+      "sourceSha256": "b8d294e9b5c5a0940f167c3ced0f7ef2e3f57082ca3ff096ef30e86e26c1c159",
+      "sha256": "b8d294e9b5c5a0940f167c3ced0f7ef2e3f57082ca3ff096ef30e86e26c1c159"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/IBMPlexSerif-BoldItalic.ttf",
+      "sourceSha256": "da64b75f4284f53e7b5c71fa190a35b8bf3494fe19f1804c81c3a53340bca570",
+      "sha256": "da64b75f4284f53e7b5c71fa190a35b8bf3494fe19f1804c81c3a53340bca570"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/IBMPlexSerif-Italic.ttf",
+      "sourceSha256": "b11f1048745e715a55c9d837b3f10226ca3d78867b7db7251ddad8f98dcf0f38",
+      "sha256": "b11f1048745e715a55c9d837b3f10226ca3d78867b7db7251ddad8f98dcf0f38"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/IBMPlexSerif-Regular.ttf",
+      "sourceSha256": "77cd233a2af8dc6b1022faea3bb3b01f3c75af68bcf530cb6aeb15982ff3dbb7",
+      "sha256": "77cd233a2af8dc6b1022faea3bb3b01f3c75af68bcf530cb6aeb15982ff3dbb7"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/InstrumentSans-Bold.ttf",
+      "sourceSha256": "444f85bf1c4b0e1ce1ca624f6be54bcd832207714ccaf4ea99ee531341683bdf",
+      "sha256": "444f85bf1c4b0e1ce1ca624f6be54bcd832207714ccaf4ea99ee531341683bdf"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/InstrumentSans-BoldItalic.ttf",
+      "sourceSha256": "3762f6cef95d6039489ad5ba5787d4c30f17a1ad01e9ac3c816ed69692722a68",
+      "sha256": "3762f6cef95d6039489ad5ba5787d4c30f17a1ad01e9ac3c816ed69692722a68"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/InstrumentSans-Italic.ttf",
+      "sourceSha256": "78e85858e371b2cb4e18f617c10f0f937c0e12a0887ffee98555b24ed305b3a7",
+      "sha256": "78e85858e371b2cb4e18f617c10f0f937c0e12a0887ffee98555b24ed305b3a7"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/InstrumentSans-OFL.txt",
+      "sourceSha256": "bf4dc6d13a8cccd4807133c77a1ee9619a16b92cb23322258725ab6731c2f6e5",
+      "sha256": "bf4dc6d13a8cccd4807133c77a1ee9619a16b92cb23322258725ab6731c2f6e5"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/InstrumentSans-Regular.ttf",
+      "sourceSha256": "a22cb26e48fd79bcb01bf2fc92d36785474dce36d9c544ab0a8868c2657c4a87",
+      "sha256": "a22cb26e48fd79bcb01bf2fc92d36785474dce36d9c544ab0a8868c2657c4a87"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/InstrumentSerif-Italic.ttf",
+      "sourceSha256": "9c86e4d5a47b50224a2463a9eca8535835257c8e85c470c2c6b454b1af6f046e",
+      "sha256": "9c86e4d5a47b50224a2463a9eca8535835257c8e85c470c2c6b454b1af6f046e"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/InstrumentSerif-Regular.ttf",
+      "sourceSha256": "56ac3be03ac3ba283196b3e77850ab2ffcf56cfb6fd3212c5620109a972f8c99",
+      "sha256": "56ac3be03ac3ba283196b3e77850ab2ffcf56cfb6fd3212c5620109a972f8c99"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Italiana-OFL.txt",
+      "sourceSha256": "8373b11312ace78c4cec2e8f9f6aa9f2330601107dac7bcf899c6f2dbd40c5a5",
+      "sha256": "8373b11312ace78c4cec2e8f9f6aa9f2330601107dac7bcf899c6f2dbd40c5a5"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Italiana-Regular.ttf",
+      "sourceSha256": "15c4dd6ab8cf4a29ba8826f65edcbe2f6c266c557d34d081f25072dfd5605fd2",
+      "sha256": "15c4dd6ab8cf4a29ba8826f65edcbe2f6c266c557d34d081f25072dfd5605fd2"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/JetBrainsMono-Bold.ttf",
+      "sourceSha256": "a2349098b9e45419e7bf0e2958d6c4937a049dded37387b08be725be4c7615f3",
+      "sha256": "a2349098b9e45419e7bf0e2958d6c4937a049dded37387b08be725be4c7615f3"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/JetBrainsMono-OFL.txt",
+      "sourceSha256": "a76abf002c49097d146e86740a3105a5d00450b1592e820a1109a8c5680cd697",
+      "sha256": "a76abf002c49097d146e86740a3105a5d00450b1592e820a1109a8c5680cd697"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/JetBrainsMono-Regular.ttf",
+      "sourceSha256": "b6b1ff4ddefe36d7f2a6174e1d001cab374e594519ee9049af028d577b64c5f5",
+      "sha256": "b6b1ff4ddefe36d7f2a6174e1d001cab374e594519ee9049af028d577b64c5f5"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Jura-Light.ttf",
+      "sourceSha256": "c891a381df056b2c4dfe85841e911bf45da0890fa21a7b2692cbe5ea1f505e1e",
+      "sha256": "c891a381df056b2c4dfe85841e911bf45da0890fa21a7b2692cbe5ea1f505e1e"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Jura-Medium.ttf",
+      "sourceSha256": "c72965cb732a92872643819fd1734128238583cc36b116313859137a51d3368a",
+      "sha256": "c72965cb732a92872643819fd1734128238583cc36b116313859137a51d3368a"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Jura-OFL.txt",
+      "sourceSha256": "eaf9bdb675f6d87e5feb88199ab3ea581d3bd2082f426e384fa9c394576d7260",
+      "sha256": "eaf9bdb675f6d87e5feb88199ab3ea581d3bd2082f426e384fa9c394576d7260"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/LibreBaskerville-OFL.txt",
+      "sourceSha256": "55959eef5b0c3b2e3c1c7631b8ff0f9447d75de20f29cfa7db5bcfb026763343",
+      "sha256": "55959eef5b0c3b2e3c1c7631b8ff0f9447d75de20f29cfa7db5bcfb026763343"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/LibreBaskerville-Regular.ttf",
+      "sourceSha256": "2101302538d9e88adb679031c04623e4578b5745e89566284fd2c508d79acae0",
+      "sha256": "2101302538d9e88adb679031c04623e4578b5745e89566284fd2c508d79acae0"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Lora-Bold.ttf",
+      "sourceSha256": "7d74015e950c2fb66519c7295b8155621d22200ae2ca2a4c6b43ce3c490cac87",
+      "sha256": "7d74015e950c2fb66519c7295b8155621d22200ae2ca2a4c6b43ce3c490cac87"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Lora-BoldItalic.ttf",
+      "sourceSha256": "152f87e71f5ddb60d5c57ecd9132807c947e65c42977193c9164e7c5a6690081",
+      "sha256": "152f87e71f5ddb60d5c57ecd9132807c947e65c42977193c9164e7c5a6690081"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Lora-Italic.ttf",
+      "sourceSha256": "be627e595184e8afe521f08da0607eee613f1997d423bc8dadc5798995581377",
+      "sha256": "be627e595184e8afe521f08da0607eee613f1997d423bc8dadc5798995581377"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Lora-OFL.txt",
+      "sourceSha256": "62e37a82d3f1ef2a70712885fa8b3144b65fd144d8e748d6196b690a354d792c",
+      "sha256": "62e37a82d3f1ef2a70712885fa8b3144b65fd144d8e748d6196b690a354d792c"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Lora-Regular.ttf",
+      "sourceSha256": "7ed00e7c9cdf16ab7e2fd2361fe45d4f0b61263cd60aae398b27b7ee08108827",
+      "sha256": "7ed00e7c9cdf16ab7e2fd2361fe45d4f0b61263cd60aae398b27b7ee08108827"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/NationalPark-Bold.ttf",
+      "sourceSha256": "69ac4c301c4a7233c6e602d12a92c54d7967b575f4449951c45ce773f7acff53",
+      "sha256": "69ac4c301c4a7233c6e602d12a92c54d7967b575f4449951c45ce773f7acff53"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/NationalPark-OFL.txt",
+      "sourceSha256": "81c6c71d83b5b45d7344f96df12bb4a2477a5b092a9144757ee1d0f50f855175",
+      "sha256": "81c6c71d83b5b45d7344f96df12bb4a2477a5b092a9144757ee1d0f50f855175"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/NationalPark-Regular.ttf",
+      "sourceSha256": "a477338b7e18308d476650dfe31235ef86a883572665e56ffb5fb80f82009b58",
+      "sha256": "a477338b7e18308d476650dfe31235ef86a883572665e56ffb5fb80f82009b58"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/NothingYouCouldDo-OFL.txt",
+      "sourceSha256": "7c2a6970584ddad04919816163746f83b378078015899b18468b40f05e9ce128",
+      "sha256": "7c2a6970584ddad04919816163746f83b378078015899b18468b40f05e9ce128"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/NothingYouCouldDo-Regular.ttf",
+      "sourceSha256": "d866f985896d3280f4fce72db7e17302c24a0c1fdb0699b6b5ed3af14f944d57",
+      "sha256": "d866f985896d3280f4fce72db7e17302c24a0c1fdb0699b6b5ed3af14f944d57"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Outfit-Bold.ttf",
+      "sourceSha256": "6654b93d21301ec61887d3cedd6c11d9df1b1dfb63f9cf45ac7995f6e2235ab1",
+      "sha256": "6654b93d21301ec61887d3cedd6c11d9df1b1dfb63f9cf45ac7995f6e2235ab1"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Outfit-OFL.txt",
+      "sourceSha256": "1945b62cd76da9a3051a1660dde72afaa64ffc2666d30e7a78356d651653ba2f",
+      "sha256": "1945b62cd76da9a3051a1660dde72afaa64ffc2666d30e7a78356d651653ba2f"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Outfit-Regular.ttf",
+      "sourceSha256": "f24945365147c9e783e91d8649959b59be6b00c9ee4ecd2f6b33afbb2dd871fe",
+      "sha256": "f24945365147c9e783e91d8649959b59be6b00c9ee4ecd2f6b33afbb2dd871fe"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/PixelifySans-Medium.ttf",
+      "sourceSha256": "38397504f71c122b03d234ea6f55118e3d5bdbddffd82bedddbd7755d3b3be82",
+      "sha256": "38397504f71c122b03d234ea6f55118e3d5bdbddffd82bedddbd7755d3b3be82"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/PixelifySans-OFL.txt",
+      "sourceSha256": "7f54d1d9f1ae1ba9f2722f978145f90324fea34ca3c2304b3a29cfa96ac6037e",
+      "sha256": "7f54d1d9f1ae1ba9f2722f978145f90324fea34ca3c2304b3a29cfa96ac6037e"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/PoiretOne-OFL.txt",
+      "sourceSha256": "2eaf541f7eb8b512e4c757a5212060abf5b6edfef230e9d7640bf736b315c33a",
+      "sha256": "2eaf541f7eb8b512e4c757a5212060abf5b6edfef230e9d7640bf736b315c33a"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/PoiretOne-Regular.ttf",
+      "sourceSha256": "9cf265b139648b36b6c0afdfeb0bf27f7e66db9a16094bc40f644d8da05bc318",
+      "sha256": "9cf265b139648b36b6c0afdfeb0bf27f7e66db9a16094bc40f644d8da05bc318"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/RedHatMono-Bold.ttf",
+      "sourceSha256": "7ef48353f4be5ddb90f000f6fad48f2b62b3e8c27d9818d8d45ff46c201065e0",
+      "sha256": "7ef48353f4be5ddb90f000f6fad48f2b62b3e8c27d9818d8d45ff46c201065e0"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/RedHatMono-OFL.txt",
+      "sourceSha256": "435fbfb7e66988b2a06686a4cb966faec733f35d8fe100a1601573c27f3e0bb8",
+      "sha256": "435fbfb7e66988b2a06686a4cb966faec733f35d8fe100a1601573c27f3e0bb8"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/RedHatMono-Regular.ttf",
+      "sourceSha256": "452fe826871b37539f5212b20c87cf30f82f58dd2741f1c96edd1dcbdc0db6b4",
+      "sha256": "452fe826871b37539f5212b20c87cf30f82f58dd2741f1c96edd1dcbdc0db6b4"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Silkscreen-OFL.txt",
+      "sourceSha256": "6b849745119bbe85ec01fd080c9cd50234da9f52ac6e48b55d1a424a0c4d7ca9",
+      "sha256": "6b849745119bbe85ec01fd080c9cd50234da9f52ac6e48b55d1a424a0c4d7ca9"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Silkscreen-Regular.ttf",
+      "sourceSha256": "49567408600809e25147e9225ac4f37f410e2df45a750696c45027531fb65f1b",
+      "sha256": "49567408600809e25147e9225ac4f37f410e2df45a750696c45027531fb65f1b"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/SmoochSans-Medium.ttf",
+      "sourceSha256": "dd76e6e77cce82f827a8654cd906e9ce58f3aaf78adda63c4a7f655b8ecb41f0",
+      "sha256": "dd76e6e77cce82f827a8654cd906e9ce58f3aaf78adda63c4a7f655b8ecb41f0"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/SmoochSans-OFL.txt",
+      "sourceSha256": "74c9c4eb88e891483e1b7bc54780b452cbf4f4df66d4e71881d7569aa2130749",
+      "sha256": "74c9c4eb88e891483e1b7bc54780b452cbf4f4df66d4e71881d7569aa2130749"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Tektur-Medium.ttf",
+      "sourceSha256": "52bbe8c9b057b3d2da4eeace31a524b1ea26a1375ae34319cf6900ccc57a4c82",
+      "sha256": "52bbe8c9b057b3d2da4eeace31a524b1ea26a1375ae34319cf6900ccc57a4c82"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Tektur-OFL.txt",
+      "sourceSha256": "3f1466cb5438f31782eeb6e895f3a655bc4d090e24263e331f555357d1cb734e",
+      "sha256": "3f1466cb5438f31782eeb6e895f3a655bc4d090e24263e331f555357d1cb734e"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/Tektur-Regular.ttf",
+      "sourceSha256": "162e1b36c4718c5b051b36c971ad7e50d341944f35618f480422ebbe72988f98",
+      "sha256": "162e1b36c4718c5b051b36c971ad7e50d341944f35618f480422ebbe72988f98"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/WorkSans-Bold.ttf",
+      "sourceSha256": "240d125fc9f8561363dc1ea3f513501253bd70942f41468f48f0b0cafb0c82e2",
+      "sha256": "240d125fc9f8561363dc1ea3f513501253bd70942f41468f48f0b0cafb0c82e2"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/WorkSans-BoldItalic.ttf",
+      "sourceSha256": "a5b2cad813df0aaa7d16621f2e93b5117c25e9bc788bc9a3ad218e9d6348ce34",
+      "sha256": "a5b2cad813df0aaa7d16621f2e93b5117c25e9bc788bc9a3ad218e9d6348ce34"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/WorkSans-Italic.ttf",
+      "sourceSha256": "6b7f7002e0b0c8b261fe878658ef5551e3e59d9f6b609b04efb90dde1e2c1ada",
+      "sha256": "6b7f7002e0b0c8b261fe878658ef5551e3e59d9f6b609b04efb90dde1e2c1ada"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/WorkSans-OFL.txt",
+      "sourceSha256": "ace8c22a3326318b54e67c3691857929634205533f454a70ef5a3473ddb2e2ba",
+      "sha256": "ace8c22a3326318b54e67c3691857929634205533f454a70ef5a3473ddb2e2ba"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/WorkSans-Regular.ttf",
+      "sourceSha256": "e67985a843df0d3cdee51a3d0f329eb1774a344ad9ff0c9ab923751f1577e2a4",
+      "sha256": "e67985a843df0d3cdee51a3d0f329eb1774a344ad9ff0c9ab923751f1577e2a4"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/YoungSerif-OFL.txt",
+      "sourceSha256": "cdcb8039606b40a027a6d24586ec62d5fe29c701343d82a048c829cb28a3dd28",
+      "sha256": "cdcb8039606b40a027a6d24586ec62d5fe29c701343d82a048c829cb28a3dd28"
+    },
+    {
+      "path": "skills/canvas-design/canvas-fonts/YoungSerif-Regular.ttf",
+      "sourceSha256": "f8dc08f77abad753a00670af70756a8ace938e5c3f0b770f4f4c2071c4bd8fc6",
+      "sha256": "f8dc08f77abad753a00670af70756a8ace938e5c3f0b770f4f4c2071c4bd8fc6"
+    },
+    {
+      "path": "skills/canvas-design/LICENSE.txt",
+      "sourceSha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "path": "skills/canvas-design/SKILL.md",
+      "sourceSha256": "a1f288079624402f30682753c1d43920b6664785698d21d3e7aa197450a6448b",
+      "sha256": "3b3556799e7068622f9e041c79afd9341e8d0cb53b188ab3d3de54bff63b952d"
+    },
+    {
+      "path": "skills/data-analysis/_meta.json",
+      "sourceSha256": "6da52f342b4a1ad1f8e502fb7de2a348772c975403d52926e8e4905a0c2577cb",
+      "sha256": "6da52f342b4a1ad1f8e502fb7de2a348772c975403d52926e8e4905a0c2577cb"
+    },
+    {
+      "path": "skills/data-analysis/chart-selection.md",
+      "sourceSha256": "01d040c85f79df832d8d9956e0decab76cbf6ee57cf7c584e35ab9c0c1410a47",
+      "sha256": "01d040c85f79df832d8d9956e0decab76cbf6ee57cf7c584e35ab9c0c1410a47"
+    },
+    {
+      "path": "skills/data-analysis/decision-briefs.md",
+      "sourceSha256": "e9a4a5ae1fbe0950f2669d03b9b3ba8b7e85fbbaf42465f48f2ae192fa3d170b",
+      "sha256": "e9a4a5ae1fbe0950f2669d03b9b3ba8b7e85fbbaf42465f48f2ae192fa3d170b"
+    },
+    {
+      "path": "skills/data-analysis/metric-contracts.md",
+      "sourceSha256": "074be3abdc96242096fe516f633315138a07ff216c44e649c59cd8a597a223d6",
+      "sha256": "074be3abdc96242096fe516f633315138a07ff216c44e649c59cd8a597a223d6"
+    },
+    {
+      "path": "skills/data-analysis/pitfalls.md",
+      "sourceSha256": "88eb29fc1e307bbb984c47a2bb28fbbd045bde7e296aa0f51fa244995566b14e",
+      "sha256": "88eb29fc1e307bbb984c47a2bb28fbbd045bde7e296aa0f51fa244995566b14e"
+    },
+    {
+      "path": "skills/data-analysis/SKILL.md",
+      "sourceSha256": "394f60eeee3bfa7a36cfc85153b50d83309ca6e27925eb4569194d7d50f19c9d",
+      "sha256": "51924aa4c5b640ce7444adef2ced6cb3f925b6d6d877071c2ca29530a500615d"
+    },
+    {
+      "path": "skills/data-analysis/techniques.md",
+      "sourceSha256": "e073dd1b2af9bed0a11cdf7bd231184ff3d76d9acd61f32e56dc8413118fda78",
+      "sha256": "e073dd1b2af9bed0a11cdf7bd231184ff3d76d9acd61f32e56dc8413118fda78"
+    },
+    {
+      "path": "skills/data-visualization/_meta.json",
+      "sourceSha256": "e6a81729d7cd8c1c3532d4ffa813657a27b46b0098d9a839376504a15840eaa3",
+      "sha256": "e6a81729d7cd8c1c3532d4ffa813657a27b46b0098d9a839376504a15840eaa3"
+    },
+    {
+      "path": "skills/data-visualization/SKILL.md",
+      "sourceSha256": "3ab6ed48870012a2982124269ea82c53e51cd45d88d24071f71b2fa384b9d137",
+      "sha256": "bf5ba09c297f709ed948f13098c7717e6776807e3ceaf8ada91227021fb952be"
+    },
+    {
+      "path": "skills/doc-coauthoring/SKILL.md",
+      "sourceSha256": "2e47d78846faeea4a56e9809c52700087a15a2155a3f293a3efbaded81398ef4",
+      "sha256": "be46ea61f73947a37bf1004153cbf893a6081fb916e065e5453a0190d2dd6796"
+    },
+    {
+      "path": "skills/docx/LICENSE.txt",
+      "sourceSha256": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa",
+      "sha256": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa"
+    },
+    {
+      "path": "skills/docx/scripts/__init__.py",
+      "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "skills/docx/scripts/accept_changes.py",
+      "sourceSha256": "0c991d2bc7304a1248e9f3bf9b1498f0b6e76641fc457e7cbd73c99b4eef3a74",
+      "sha256": "0c991d2bc7304a1248e9f3bf9b1498f0b6e76641fc457e7cbd73c99b4eef3a74"
+    },
+    {
+      "path": "skills/docx/scripts/comment.py",
+      "sourceSha256": "e86e4e17ec5805780325206d20d3ed5a8f7024f1e4641ac8f46ef5df0b564f63",
+      "sha256": "e86e4e17ec5805780325206d20d3ed5a8f7024f1e4641ac8f46ef5df0b564f63"
+    },
+    {
+      "path": "skills/docx/scripts/office/helpers/__init__.py",
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "skills/docx/scripts/office/helpers/merge_runs.py",
+      "sourceSha256": "7c40ed838b88639c51f9ffdcfd564b568f26832b78fe44008c0e01b742669ca7",
+      "sha256": "7c40ed838b88639c51f9ffdcfd564b568f26832b78fe44008c0e01b742669ca7"
+    },
+    {
+      "path": "skills/docx/scripts/office/helpers/simplify_redlines.py",
+      "sourceSha256": "560cb55978a834c505406eb18e2c61f62f998fc7a2d8e9721b9c563b42597896",
+      "sha256": "560cb55978a834c505406eb18e2c61f62f998fc7a2d8e9721b9c563b42597896"
+    },
+    {
+      "path": "skills/docx/scripts/office/pack.py",
+      "sourceSha256": "b1800987e568261a31f462df8e1303d386e9e6ccc11a75ef46e60cc528c20683",
+      "sha256": "b1800987e568261a31f462df8e1303d386e9e6ccc11a75ef46e60cc528c20683"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+      "sourceSha256": "9e0b7209fc69ab11987900404540969976000c5ebe4d4f58c43dc3842886bf3a",
+      "sha256": "9e0b7209fc69ab11987900404540969976000c5ebe4d4f58c43dc3842886bf3a"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+      "sourceSha256": "451958454e8588dfc7cd945981ada142ca06ff3307937f5700df059c2b307fa8",
+      "sha256": "451958454e8588dfc7cd945981ada142ca06ff3307937f5700df059c2b307fa8"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
+      "sourceSha256": "6de111e11403f7cd49027400755bae0ea1cabef2815f09bd40a24f0017613b24",
+      "sha256": "6de111e11403f7cd49027400755bae0ea1cabef2815f09bd40a24f0017613b24"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
+      "sourceSha256": "f565adfef5a502044abc3a9153e157edc25af78304d335994afb958874b15e26",
+      "sha256": "f565adfef5a502044abc3a9153e157edc25af78304d335994afb958874b15e26"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+      "sourceSha256": "41b93bd8857cc68b1e43be2806a872d736a9bdd6566900062d8fdb57d7bbb354",
+      "sha256": "41b93bd8857cc68b1e43be2806a872d736a9bdd6566900062d8fdb57d7bbb354"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+      "sourceSha256": "3fd0586f2637b98bb9886f0e0b67d89e1cc987c2d158cc7deb5f5b9890ced412",
+      "sha256": "3fd0586f2637b98bb9886f0e0b67d89e1cc987c2d158cc7deb5f5b9890ced412"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+      "sourceSha256": "29b254ee0d10414a8504b5a08149c7baec35a60d5ff607d6b3f492aa36815f40",
+      "sha256": "29b254ee0d10414a8504b5a08149c7baec35a60d5ff607d6b3f492aa36815f40"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+      "sourceSha256": "5cb76dabd8b97d1e9308a1700b90c20139be4d50792d21a7f09789f5cccd6026",
+      "sha256": "5cb76dabd8b97d1e9308a1700b90c20139be4d50792d21a7f09789f5cccd6026"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+      "sourceSha256": "5375417f0f5394b8dd1a7035b9679151f19a6b65df309dec10cfb4a420cb00e9",
+      "sha256": "5375417f0f5394b8dd1a7035b9679151f19a6b65df309dec10cfb4a420cb00e9"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+      "sourceSha256": "5d389d42befbebd91945d620242347caecd3367f9a3a7cf8d97949507ae1f53c",
+      "sha256": "5d389d42befbebd91945d620242347caecd3367f9a3a7cf8d97949507ae1f53c"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+      "sourceSha256": "b4532b6d258832953fbb3ee4c711f4fe25d3faf46a10644b2505f17010d01e88",
+      "sha256": "b4532b6d258832953fbb3ee4c711f4fe25d3faf46a10644b2505f17010d01e88"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+      "sourceSha256": "bdad416b096b61d37b71603b2c949484f9070c830bdaeba93bf35e15c8900614",
+      "sha256": "bdad416b096b61d37b71603b2c949484f9070c830bdaeba93bf35e15c8900614"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+      "sourceSha256": "d173c3e5d61e42e2e3a97226c632fd2ab7cc481fc4e492365b87024ab546daff",
+      "sha256": "d173c3e5d61e42e2e3a97226c632fd2ab7cc481fc4e492365b87024ab546daff"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+      "sourceSha256": "3c6709101c6aaa82888df5d8795c33f9e857196790eb320d9194e64be2b6bdd8",
+      "sha256": "3c6709101c6aaa82888df5d8795c33f9e857196790eb320d9194e64be2b6bdd8"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+      "sourceSha256": "0b364451dc36a48dd6dae0f3b6ada05fd9b71e5208211f8ee5537d7e51a587e2",
+      "sha256": "0b364451dc36a48dd6dae0f3b6ada05fd9b71e5208211f8ee5537d7e51a587e2"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+      "sourceSha256": "e2abacbb9a55ce1365f8961bc1b1395bbc811e512b111000d8c333f98458dece",
+      "sha256": "e2abacbb9a55ce1365f8961bc1b1395bbc811e512b111000d8c333f98458dece"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+      "sourceSha256": "0ef4bb354ff44b923564c4ddbdda5987919d220225129ec94614a618ceafc281",
+      "sha256": "0ef4bb354ff44b923564c4ddbdda5987919d220225129ec94614a618ceafc281"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+      "sourceSha256": "0d103b99a4a8652f8871552a69d42d2a3760ac6a5e3ef02d979c4273257ff6a4",
+      "sha256": "0d103b99a4a8652f8871552a69d42d2a3760ac6a5e3ef02d979c4273257ff6a4"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+      "sourceSha256": "9c085407751b9061c1f996f6c39ce58451be22a8d334f09175f0e89e42736285",
+      "sha256": "9c085407751b9061c1f996f6c39ce58451be22a8d334f09175f0e89e42736285"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+      "sourceSha256": "bc92e36ccd233722d4c5869bec71ddc7b12e2df56059942cce5a39065cc9c368",
+      "sha256": "bc92e36ccd233722d4c5869bec71ddc7b12e2df56059942cce5a39065cc9c368"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+      "sourceSha256": "7b5b7413e2c895b1e148e82e292a117d53c7ec65b0696c992edca57b61b4a74b",
+      "sha256": "7b5b7413e2c895b1e148e82e292a117d53c7ec65b0696c992edca57b61b4a74b"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+      "sourceSha256": "3213ef1631606250f5010b42cad7ef716f7c59426367798e33c374c0ec391d3a",
+      "sha256": "3213ef1631606250f5010b42cad7ef716f7c59426367798e33c374c0ec391d3a"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+      "sourceSha256": "12264f3c03d738311cd9237d212f1c07479e70f0cbe1ae725d29b36539aef637",
+      "sha256": "12264f3c03d738311cd9237d212f1c07479e70f0cbe1ae725d29b36539aef637"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+      "sourceSha256": "beffeed56945c22a77440122c8bdc426f3fcbe7f3b12ea0976c770d1f8d54578",
+      "sha256": "beffeed56945c22a77440122c8bdc426f3fcbe7f3b12ea0976c770d1f8d54578"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+      "sourceSha256": "f5ee623b08b6a66935e5aced2f5d8ad0fc71bf9e8e833cd490150c0fa94b8763",
+      "sha256": "f5ee623b08b6a66935e5aced2f5d8ad0fc71bf9e8e833cd490150c0fa94b8763"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+      "sourceSha256": "585bedc1313b40888dcc544cb74cd939a105ee674f3b1d3aa1cc6d34f70ff155",
+      "sha256": "585bedc1313b40888dcc544cb74cd939a105ee674f3b1d3aa1cc6d34f70ff155"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+      "sourceSha256": "133c9f64a5c5d573b78d0a474122b22506d8eadb5e063f67cdbbb8fa2f161d0e",
+      "sha256": "133c9f64a5c5d573b78d0a474122b22506d8eadb5e063f67cdbbb8fa2f161d0e"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+      "sourceSha256": "6bdeb169c3717eb01108853bd9fc5a3750fb1fa5b82abbdd854d49855a40f519",
+      "sha256": "6bdeb169c3717eb01108853bd9fc5a3750fb1fa5b82abbdd854d49855a40f519"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+      "sourceSha256": "475dcae1e7d1ea46232db6f8481040c15e53a52a3c256831d3df204212b0e831",
+      "sha256": "475dcae1e7d1ea46232db6f8481040c15e53a52a3c256831d3df204212b0e831"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+      "sourceSha256": "c2dd9f61f892deae6acd8d20771ea79b12018af25f3bf8d06639c8542d218cfd",
+      "sha256": "c2dd9f61f892deae6acd8d20771ea79b12018af25f3bf8d06639c8542d218cfd"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+      "sourceSha256": "a539aa2fb154fa50e0f5cc97e6ad7cbc66f8ec3e3746f61ec6a8b0d5d15ecdf2",
+      "sha256": "a539aa2fb154fa50e0f5cc97e6ad7cbc66f8ec3e3746f61ec6a8b0d5d15ecdf2"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/mce/mc.xsd",
+      "sourceSha256": "3a37e461ecf5a8670fdec34029703401f8728ab9c96ec1739a6ae58d55212413",
+      "sha256": "3a37e461ecf5a8670fdec34029703401f8728ab9c96ec1739a6ae58d55212413"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/microsoft/wml-2010.xsd",
+      "sourceSha256": "568b26ee156cb9549aa439ca2158965f77b7c1602b7e0316f40ac6cf586e35f2",
+      "sha256": "568b26ee156cb9549aa439ca2158965f77b7c1602b7e0316f40ac6cf586e35f2"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/microsoft/wml-2012.xsd",
+      "sourceSha256": "0fa75578a000439a7988ba0c59fdc69f774bbd416cbacc14d07125b3f686cb74",
+      "sha256": "0fa75578a000439a7988ba0c59fdc69f774bbd416cbacc14d07125b3f686cb74"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/microsoft/wml-2018.xsd",
+      "sourceSha256": "be0ff793a22dd31384650c3a4da14c2fa8062751c2e97b0e5ee852bda13c60ad",
+      "sha256": "be0ff793a22dd31384650c3a4da14c2fa8062751c2e97b0e5ee852bda13c60ad"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+      "sourceSha256": "fddc2b880cabb9005aebbc7e783e53c19fec1c03df7d0e2f2076a33a0fdfd081",
+      "sha256": "fddc2b880cabb9005aebbc7e783e53c19fec1c03df7d0e2f2076a33a0fdfd081"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+      "sourceSha256": "127ca209fa73d7cb708449cb355c871867948a96e4a74f7bf5811ef62d17991d",
+      "sha256": "127ca209fa73d7cb708449cb355c871867948a96e4a74f7bf5811ef62d17991d"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+      "sourceSha256": "842e7163409c8d74f4d7088a8bc99500d80bc75332681a0980055b08f374a604",
+      "sha256": "842e7163409c8d74f4d7088a8bc99500d80bc75332681a0980055b08f374a604"
+    },
+    {
+      "path": "skills/docx/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+      "sourceSha256": "16f6f8072249f431370723c2cd8974672e0d9c897e00e97dd918079df934871b",
+      "sha256": "16f6f8072249f431370723c2cd8974672e0d9c897e00e97dd918079df934871b"
+    },
+    {
+      "path": "skills/docx/scripts/office/soffice.py",
+      "sourceSha256": "a3e21840e29e32f947d5286028931b96eaf2dee63f75d883b8eb19c943c80aa0",
+      "sha256": "a3e21840e29e32f947d5286028931b96eaf2dee63f75d883b8eb19c943c80aa0"
+    },
+    {
+      "path": "skills/docx/scripts/office/unpack.py",
+      "sourceSha256": "83f69cecc87910183654c06345837244402e8a99edbf3bdddc1cf72f11304b62",
+      "sha256": "83f69cecc87910183654c06345837244402e8a99edbf3bdddc1cf72f11304b62"
+    },
+    {
+      "path": "skills/docx/scripts/office/validate.py",
+      "sourceSha256": "1aef24f8e316965a0584c30859776bd2c82a9fb69f72d79cfed041119cf95514",
+      "sha256": "1aef24f8e316965a0584c30859776bd2c82a9fb69f72d79cfed041119cf95514"
+    },
+    {
+      "path": "skills/docx/scripts/office/validators/__init__.py",
+      "sourceSha256": "83e0f035c5abea238d3f2c3968afbd511ed022b527b7c9cb60a9434cc34ff987",
+      "sha256": "83e0f035c5abea238d3f2c3968afbd511ed022b527b7c9cb60a9434cc34ff987"
+    },
+    {
+      "path": "skills/docx/scripts/office/validators/base.py",
+      "sourceSha256": "d6358b67252df4dbfe4fa6647423a765960c949346ef6a8c4eb8722bb1108d25",
+      "sha256": "d6358b67252df4dbfe4fa6647423a765960c949346ef6a8c4eb8722bb1108d25"
+    },
+    {
+      "path": "skills/docx/scripts/office/validators/docx.py",
+      "sourceSha256": "0ef04ce86b2e6b6a1cb088c0276fd0bd5b770d96fdfe7a6cc73d005feb3f0345",
+      "sha256": "0ef04ce86b2e6b6a1cb088c0276fd0bd5b770d96fdfe7a6cc73d005feb3f0345"
+    },
+    {
+      "path": "skills/docx/scripts/office/validators/pptx.py",
+      "sourceSha256": "f937961e62a5fa0d002b8dc51a4c4e2cd8fcd59fe65853fa54edaca3fe99eccc",
+      "sha256": "f937961e62a5fa0d002b8dc51a4c4e2cd8fcd59fe65853fa54edaca3fe99eccc"
+    },
+    {
+      "path": "skills/docx/scripts/office/validators/redlining.py",
+      "sourceSha256": "f4c33fdb9da0651d1d9aa76f0d5294cc9955869339ae131b2f75f3b2e366cb40",
+      "sha256": "f4c33fdb9da0651d1d9aa76f0d5294cc9955869339ae131b2f75f3b2e366cb40"
+    },
+    {
+      "path": "skills/docx/scripts/templates/comments.xml",
+      "sourceSha256": "a08ba83ee8790ac9e3dc61921f4988f19edd7e06ac09d6f1897a877c1581818d",
+      "sha256": "a08ba83ee8790ac9e3dc61921f4988f19edd7e06ac09d6f1897a877c1581818d"
+    },
+    {
+      "path": "skills/docx/scripts/templates/commentsExtended.xml",
+      "sourceSha256": "544eeecfeceed4b468fff163cd9c366d33641c8b8ab691ce002576197846afe8",
+      "sha256": "544eeecfeceed4b468fff163cd9c366d33641c8b8ab691ce002576197846afe8"
+    },
+    {
+      "path": "skills/docx/scripts/templates/commentsExtensible.xml",
+      "sourceSha256": "bad10b3283e6ad6e7ef6d1ca5169683721ed690ee331282c65df04017e080631",
+      "sha256": "bad10b3283e6ad6e7ef6d1ca5169683721ed690ee331282c65df04017e080631"
+    },
+    {
+      "path": "skills/docx/scripts/templates/commentsIds.xml",
+      "sourceSha256": "db20f9616e004ec42ef736e80c2384e45db0f8d1194d31dc8b37c7d6ecdd6420",
+      "sha256": "db20f9616e004ec42ef736e80c2384e45db0f8d1194d31dc8b37c7d6ecdd6420"
+    },
+    {
+      "path": "skills/docx/scripts/templates/people.xml",
+      "sourceSha256": "056f63aa1197fd8c9dda980c9f1b9ff016fd5fa4a462df8aec5f384f39d23e37",
+      "sha256": "056f63aa1197fd8c9dda980c9f1b9ff016fd5fa4a462df8aec5f384f39d23e37"
+    },
+    {
+      "path": "skills/docx/SKILL.md",
+      "sourceSha256": "cfbabd72b1aec7dfaad988fb6e5e16b27dc744b9a00cae15db9045e95f53903e",
+      "sha256": "96a80b8b67b6b6957221b55fcdb3612bdf0103df24cf182152e0788f51dc1d7c"
+    },
+    {
+      "path": "skills/echarts-ai-skill/_meta.json",
+      "sourceSha256": "c02bcf4383728921c008e707a780f23d25ff34ece2b3a046f37e1e279557dc51",
+      "sha256": "c02bcf4383728921c008e707a780f23d25ff34ece2b3a046f37e1e279557dc51"
+    },
+    {
+      "path": "skills/echarts-ai-skill/agents/openai.yaml",
+      "sourceSha256": "df3aff5fcb937a28b5dbc5b22e561de07255f78fae46e9829437b8d817c82a95",
+      "sha256": "df3aff5fcb937a28b5dbc5b22e561de07255f78fae46e9829437b8d817c82a95"
+    },
+    {
+      "path": "skills/echarts-ai-skill/examples/funnel.request.json",
+      "sourceSha256": "763c5f2ce30cc151144acba8504d1882cbde6a82226cf8b2ec692651c93ea552",
+      "sha256": "763c5f2ce30cc151144acba8504d1882cbde6a82226cf8b2ec692651c93ea552"
+    },
+    {
+      "path": "skills/echarts-ai-skill/examples/gauge.option.json",
+      "sourceSha256": "9157ddefe1cdf46e041aefbfbe67e6a4b29c6b62e88e6ef0598db4ca6ad09f2e",
+      "sha256": "9157ddefe1cdf46e041aefbfbe67e6a4b29c6b62e88e6ef0598db4ca6ad09f2e"
+    },
+    {
+      "path": "skills/echarts-ai-skill/examples/gauge.request.json",
+      "sourceSha256": "4ce8f53479bc732bc396d8d18bf1304622c9602affd365a9ed4cbd2d6418dbfb",
+      "sha256": "4ce8f53479bc732bc396d8d18bf1304622c9602affd365a9ed4cbd2d6418dbfb"
+    },
+    {
+      "path": "skills/echarts-ai-skill/examples/graph.option.json",
+      "sourceSha256": "0e1c97f729cfc6d5e0cd722559b51e4b27a0d0ef5aeed1de25784971b16ea408",
+      "sha256": "0e1c97f729cfc6d5e0cd722559b51e4b27a0d0ef5aeed1de25784971b16ea408"
+    },
+    {
+      "path": "skills/echarts-ai-skill/examples/graph.request.json",
+      "sourceSha256": "5e0dd01c4de42f1af043160e9fbe403fbf4c023d5209eacba5ef0b892b0a4fc1",
+      "sha256": "5e0dd01c4de42f1af043160e9fbe403fbf4c023d5209eacba5ef0b892b0a4fc1"
+    },
+    {
+      "path": "skills/echarts-ai-skill/examples/heatmap.option.json",
+      "sourceSha256": "bc03022bc82369b8d87ccd034fbfa703dd74c36aa877ef29ac9dda237f637f3b",
+      "sha256": "bc03022bc82369b8d87ccd034fbfa703dd74c36aa877ef29ac9dda237f637f3b"
+    },
+    {
+      "path": "skills/echarts-ai-skill/examples/heatmap.request.json",
+      "sourceSha256": "00181c6fe14d624a540d0fa7548a3515750edb3dd6aaa7f1443daf678cea10c1",
+      "sha256": "00181c6fe14d624a540d0fa7548a3515750edb3dd6aaa7f1443daf678cea10c1"
+    },
+    {
+      "path": "skills/echarts-ai-skill/examples/pie-chart.option.json",
+      "sourceSha256": "078cc4c572941e7ec4cee2f8dd3e98de9e643ca29da1cd8bcafb97d0509a6f14",
+      "sha256": "078cc4c572941e7ec4cee2f8dd3e98de9e643ca29da1cd8bcafb97d0509a6f14"
+    },
+    {
+      "path": "skills/echarts-ai-skill/examples/pie-chart.preview.html",
+      "sourceSha256": "1cc20b5de91977c0ebffed53613ec497afad7d473744ec10612e788eafddfbec",
+      "sha256": "1cc20b5de91977c0ebffed53613ec497afad7d473744ec10612e788eafddfbec"
+    },
+    {
+      "path": "skills/echarts-ai-skill/examples/pie-chart.preview.svg",
+      "sourceSha256": "f4d56d082e9090dc80de453f49c7e011931064fab348db7d62b1f346192bb38d",
+      "sha256": "f4d56d082e9090dc80de453f49c7e011931064fab348db7d62b1f346192bb38d"
+    },
+    {
+      "path": "skills/echarts-ai-skill/examples/pie-chart.request.json",
+      "sourceSha256": "9807d21de823450fa3a1280e490393eccb0bf97a38ca875e5ec34e5ec4a58278",
+      "sha256": "9807d21de823450fa3a1280e490393eccb0bf97a38ca875e5ec34e5ec4a58278"
+    },
+    {
+      "path": "skills/echarts-ai-skill/examples/product-demo.html",
+      "sourceSha256": "5a32238f6d34aaa8228b99a75be53ed743bc3083cda64090778235b73ae177b8",
+      "sha256": "5a32238f6d34aaa8228b99a75be53ed743bc3083cda64090778235b73ae177b8"
+    },
+    {
+      "path": "skills/echarts-ai-skill/examples/radar.option.json",
+      "sourceSha256": "1fa4cdef9317ff717cd4a144b4e54c83e2bf96a8e48f754ea5495ef3bd2bc532",
+      "sha256": "1fa4cdef9317ff717cd4a144b4e54c83e2bf96a8e48f754ea5495ef3bd2bc532"
+    },
+    {
+      "path": "skills/echarts-ai-skill/examples/radar.preview.html",
+      "sourceSha256": "e6c7b436062949a040d0c303258d7ac6d7dc37dc677e0ea25280bedaa585a5f9",
+      "sha256": "e6c7b436062949a040d0c303258d7ac6d7dc37dc677e0ea25280bedaa585a5f9"
+    },
+    {
+      "path": "skills/echarts-ai-skill/examples/radar.request.json",
+      "sourceSha256": "07c6998ed59ee66fb92a20a06cd492dd4990f67fbd4874d09ef847cddf70309e",
+      "sha256": "07c6998ed59ee66fb92a20a06cd492dd4990f67fbd4874d09ef847cddf70309e"
+    },
+    {
+      "path": "skills/echarts-ai-skill/examples/sankey.option.json",
+      "sourceSha256": "2d2db395b6db276c132f4bedd79806ba7ae1a1bca5028832ce410c85ff170f92",
+      "sha256": "2d2db395b6db276c132f4bedd79806ba7ae1a1bca5028832ce410c85ff170f92"
+    },
+    {
+      "path": "skills/echarts-ai-skill/examples/sankey.preview.svg",
+      "sourceSha256": "0ec0e7d58881df809f11340d6056bbcf07f02a5b664bdd36c718548dd7b9e9d1",
+      "sha256": "0ec0e7d58881df809f11340d6056bbcf07f02a5b664bdd36c718548dd7b9e9d1"
+    },
+    {
+      "path": "skills/echarts-ai-skill/examples/sankey.request.json",
+      "sourceSha256": "ba8fdcd83baf7fe791c51de94bd82d0ae3757727de5bb13fbd44681b52732685",
+      "sha256": "ba8fdcd83baf7fe791c51de94bd82d0ae3757727de5bb13fbd44681b52732685"
+    },
+    {
+      "path": "skills/echarts-ai-skill/examples/study-progress.request.json",
+      "sourceSha256": "017ba5ca0fb85482600d1353d6920887ae34b5166505cc86028e6fd4c94dcf84",
+      "sha256": "017ba5ca0fb85482600d1353d6920887ae34b5166505cc86028e6fd4c94dcf84"
+    },
+    {
+      "path": "skills/echarts-ai-skill/manifest.yaml",
+      "sourceSha256": "43da2d2b4db8a949055472880c620aa24cbc8e24849f92fe10e84e5d174fd8bf",
+      "sha256": "43da2d2b4db8a949055472880c620aa24cbc8e24849f92fe10e84e5d174fd8bf"
+    },
+    {
+      "path": "skills/echarts-ai-skill/package.json",
+      "sourceSha256": "beb44c1599c78468d8fa95f5f92f5322a1be05f5a99f3b59f0e7e632885b914f",
+      "sha256": "beb44c1599c78468d8fa95f5f92f5322a1be05f5a99f3b59f0e7e632885b914f"
+    },
+    {
+      "path": "skills/echarts-ai-skill/README.md",
+      "sourceSha256": "001d2df1f20f89743531f9ab3c46d7bf3c77bc90b7bea5abedaaa7939533f08d",
+      "sha256": "001d2df1f20f89743531f9ab3c46d7bf3c77bc90b7bea5abedaaa7939533f08d"
+    },
+    {
+      "path": "skills/echarts-ai-skill/README.zh-CN.md",
+      "sourceSha256": "80c9ee18ef211bd9ad2cffa4a6baaef5b07b7b2508084e4130333dc4b5ca7a18",
+      "sha256": "80c9ee18ef211bd9ad2cffa4a6baaef5b07b7b2508084e4130333dc4b5ca7a18"
+    },
+    {
+      "path": "skills/echarts-ai-skill/SKILL.md",
+      "sourceSha256": "5f747254fa36f05a83185758fa5f0a1dd71b6aa779dfcb8dc4870bcacebf1eda",
+      "sha256": "4af1bac4ce2cacd91f8783ebf86127484cf7e6fba12dcce78cbef447b8016c67"
+    },
+    {
+      "path": "skills/echarts-ai-skill/src/cli/args.ts",
+      "sourceSha256": "cb1376c6fa31f954b0ac3b9c517ab1687daddae123dd6715f8e1587fffb68a5f",
+      "sha256": "cb1376c6fa31f954b0ac3b9c517ab1687daddae123dd6715f8e1587fffb68a5f"
+    },
+    {
+      "path": "skills/echarts-ai-skill/src/cli/generate-chart.ts",
+      "sourceSha256": "9f8cd37c6863c0f71ed9e8fa5a312927e35ab8af986fdf9765b496d0bca97565",
+      "sha256": "9f8cd37c6863c0f71ed9e8fa5a312927e35ab8af986fdf9765b496d0bca97565"
+    },
+    {
+      "path": "skills/echarts-ai-skill/src/cli/recommend-chart.ts",
+      "sourceSha256": "d3a0ad8704e89ed2cf90d5e1eb78f63241b21966a6825c0eead106f145bb41a4",
+      "sha256": "d3a0ad8704e89ed2cf90d5e1eb78f63241b21966a6825c0eead106f145bb41a4"
+    },
+    {
+      "path": "skills/echarts-ai-skill/src/cli/render-chart.ts",
+      "sourceSha256": "64439e4f33f0c0025559c1d578a60e986b6475597ab25121e1081aef2f39c909",
+      "sha256": "64439e4f33f0c0025559c1d578a60e986b6475597ab25121e1081aef2f39c909"
+    },
+    {
+      "path": "skills/echarts-ai-skill/src/core/recommend.ts",
+      "sourceSha256": "cc9fc1a7353bbe049454c881a44ad1d4fd6946f53ba2924efe09ada344fdf213",
+      "sha256": "cc9fc1a7353bbe049454c881a44ad1d4fd6946f53ba2924efe09ada344fdf213"
+    },
+    {
+      "path": "skills/echarts-ai-skill/src/core/render.ts",
+      "sourceSha256": "499cdd6941204c59d47d89ad6fc935e259fb551abc61b30863c6663cce4386ae",
+      "sha256": "499cdd6941204c59d47d89ad6fc935e259fb551abc61b30863c6663cce4386ae"
+    },
+    {
+      "path": "skills/echarts-ai-skill/src/core/spec-to-option.ts",
+      "sourceSha256": "08f9375a47a09b18ee0d964398641bc949e859d23dbd0c5ac4729a9b66f9918d",
+      "sha256": "08f9375a47a09b18ee0d964398641bc949e859d23dbd0c5ac4729a9b66f9918d"
+    },
+    {
+      "path": "skills/echarts-ai-skill/src/types/chart.ts",
+      "sourceSha256": "6cbbfd8bc1b712fde5546ce2700bf0f38ea246424743cf129038a83317491645",
+      "sha256": "6cbbfd8bc1b712fde5546ce2700bf0f38ea246424743cf129038a83317491645"
+    },
+    {
+      "path": "skills/echarts-ai-skill/tsconfig.json",
+      "sourceSha256": "ba6c4993a0eb729c7690e4ee3e6dbb83810f402ebff66fe47181228fe5d18666",
+      "sha256": "ba6c4993a0eb729c7690e4ee3e6dbb83810f402ebff66fe47181228fe5d18666"
+    },
+    {
+      "path": "skills/internal-comms/examples/3p-updates.md",
+      "sourceSha256": "087e4363c0f3513728a7e695eeb9ead5c3ecd12a4681b59340691180e65b68fc",
+      "sha256": "087e4363c0f3513728a7e695eeb9ead5c3ecd12a4681b59340691180e65b68fc"
+    },
+    {
+      "path": "skills/internal-comms/examples/company-newsletter.md",
+      "sourceSha256": "30f81cfbdb03858a006169c72169024089c7c5d3d32611d337782da4f38c86b5",
+      "sha256": "30f81cfbdb03858a006169c72169024089c7c5d3d32611d337782da4f38c86b5"
+    },
+    {
+      "path": "skills/internal-comms/examples/faq-answers.md",
+      "sourceSha256": "5ecd3356cd6666937f2ebefa753253edfdbdca15e368d07baf398bfcced72484",
+      "sha256": "5ecd3356cd6666937f2ebefa753253edfdbdca15e368d07baf398bfcced72484"
+    },
+    {
+      "path": "skills/internal-comms/examples/general-comms.md",
+      "sourceSha256": "4d3a4bb198a77626bcf018e96b2b45a2dbabed172d4ade0fcd70d23ae8a47a47",
+      "sha256": "4d3a4bb198a77626bcf018e96b2b45a2dbabed172d4ade0fcd70d23ae8a47a47"
+    },
+    {
+      "path": "skills/internal-comms/LICENSE.txt",
+      "sourceSha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "path": "skills/internal-comms/SKILL.md",
+      "sourceSha256": "067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475",
+      "sha256": "6ee29f4e3b22c619f099401c91230f8197d71733d5709bffec66d0a647f71357"
+    },
+    {
+      "path": "skills/matplotlib-chinese-font/_meta.json",
+      "sourceSha256": "e9f0284a79c494051814e6946b3a250653cef8f03996401abda9cd6779c15b1f",
+      "sha256": "e9f0284a79c494051814e6946b3a250653cef8f03996401abda9cd6779c15b1f"
+    },
+    {
+      "path": "skills/matplotlib-chinese-font/references/troubleshooting.md",
+      "sourceSha256": "c9580106711d2be6dabd100661380ab50f1a4a88b48154f4bb9ba921a811dc21",
+      "sha256": "c9580106711d2be6dabd100661380ab50f1a4a88b48154f4bb9ba921a811dc21"
+    },
+    {
+      "path": "skills/matplotlib-chinese-font/scripts/clear_cache.py",
+      "sourceSha256": "b37a848370ad1888bdb18c874a1fbd39d91ae64f31e201f54c0a81ae3f9193e1",
+      "sha256": "b37a848370ad1888bdb18c874a1fbd39d91ae64f31e201f54c0a81ae3f9193e1"
+    },
+    {
+      "path": "skills/matplotlib-chinese-font/scripts/list_fonts.py",
+      "sourceSha256": "07595adacf61bb8e81607a0fd3f11d64dee7ad2934a94c11650963c1c2225c5e",
+      "sha256": "07595adacf61bb8e81607a0fd3f11d64dee7ad2934a94c11650963c1c2225c5e"
+    },
+    {
+      "path": "skills/matplotlib-chinese-font/scripts/test_font.py",
+      "sourceSha256": "fd3b3c7e1b444d685b1317e7f4909e650eaeb605b609c6734940beef2ff33b8b",
+      "sha256": "fd3b3c7e1b444d685b1317e7f4909e650eaeb605b609c6734940beef2ff33b8b"
+    },
+    {
+      "path": "skills/matplotlib-chinese-font/SKILL.md",
+      "sourceSha256": "e7b565bff262814101b2921b7ff6c901335042167f66a57e02401c01cf20275f",
+      "sha256": "21b1ed051ae33118b9b6f735e0329688bb59ceeaffa37c6219420999e30287c9"
+    },
+    {
+      "path": "skills/matplotlib/references/api_reference.md",
+      "sourceSha256": "988c2afffa9488bce338720f7b16719ea9bee95fbe3d2d0128139eafc99a65a2",
+      "sha256": "988c2afffa9488bce338720f7b16719ea9bee95fbe3d2d0128139eafc99a65a2"
+    },
+    {
+      "path": "skills/matplotlib/references/common_issues.md",
+      "sourceSha256": "16fecf7bb99b830053cece408af4673feabd3f3e2696377c85909ffe14774868",
+      "sha256": "16fecf7bb99b830053cece408af4673feabd3f3e2696377c85909ffe14774868"
+    },
+    {
+      "path": "skills/matplotlib/references/plot_types.md",
+      "sourceSha256": "24501746fc5a6ae26a354cc14d9fed393e8efb96de64fe4bb9bf7a6fc4fb9f3e",
+      "sha256": "24501746fc5a6ae26a354cc14d9fed393e8efb96de64fe4bb9bf7a6fc4fb9f3e"
+    },
+    {
+      "path": "skills/matplotlib/references/styling_guide.md",
+      "sourceSha256": "1b39f691ac6fc33e4584893c05d0126a954dead08b8850473e5b9a912eeff37a",
+      "sha256": "1b39f691ac6fc33e4584893c05d0126a954dead08b8850473e5b9a912eeff37a"
+    },
+    {
+      "path": "skills/matplotlib/scripts/plot_template.py",
+      "sourceSha256": "670e4879a39ef9a06a0221b80a68fddea4ade9311245652283ce2045103d752b",
+      "sha256": "670e4879a39ef9a06a0221b80a68fddea4ade9311245652283ce2045103d752b"
+    },
+    {
+      "path": "skills/matplotlib/scripts/style_configurator.py",
+      "sourceSha256": "cb3dacaffed417ddca5d5e9afa530ab2d9fb0f9ef761146efb07dbeb835f9500",
+      "sha256": "cb3dacaffed417ddca5d5e9afa530ab2d9fb0f9ef761146efb07dbeb835f9500"
+    },
+    {
+      "path": "skills/matplotlib/SKILL.md",
+      "sourceSha256": "7b998235e0e9cf6101a6292e19cc0b42b85f7cdc9494fcc21dfa23ebf3abdde9",
+      "sha256": "df91765b31bc031a9d3cbed1c9d64448d45bfcf40b9a00120d47c9aef1443e17"
+    },
+    {
+      "path": "skills/pdf/forms.md",
+      "sourceSha256": "9530b3f57034792e0242a3abfe8b3c296466329551916f2ff6c5a70db78f7e44",
+      "sha256": "9530b3f57034792e0242a3abfe8b3c296466329551916f2ff6c5a70db78f7e44"
+    },
+    {
+      "path": "skills/pdf/LICENSE.txt",
+      "sourceSha256": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa",
+      "sha256": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa"
+    },
+    {
+      "path": "skills/pdf/reference.md",
+      "sourceSha256": "03a5f964f8abecbbe156f363356e927e864d7ee964f1012c84ee1bfc8acbeb95",
+      "sha256": "03a5f964f8abecbbe156f363356e927e864d7ee964f1012c84ee1bfc8acbeb95"
+    },
+    {
+      "path": "skills/pdf/scripts/check_bounding_boxes.py",
+      "sourceSha256": "0ced522402dd7b3c82a0be9518cf4e485fa9cc0467d7beab6ddb04cb36fcc3e1",
+      "sha256": "0ced522402dd7b3c82a0be9518cf4e485fa9cc0467d7beab6ddb04cb36fcc3e1"
+    },
+    {
+      "path": "skills/pdf/scripts/check_fillable_fields.py",
+      "sourceSha256": "1fe10b9980a5493c9bbec8c20630c603eaa475b45403751c08f26738736647b8",
+      "sha256": "1fe10b9980a5493c9bbec8c20630c603eaa475b45403751c08f26738736647b8"
+    },
+    {
+      "path": "skills/pdf/scripts/convert_pdf_to_images.py",
+      "sourceSha256": "7f58e292a67e18a8ff000d30bad2469389546731f7e8a698cc1d0aed001ea15d",
+      "sha256": "7f58e292a67e18a8ff000d30bad2469389546731f7e8a698cc1d0aed001ea15d"
+    },
+    {
+      "path": "skills/pdf/scripts/create_validation_image.py",
+      "sourceSha256": "8fa9fd7962c9f940045b81cf6b991e7c1057c1838e3f9cc6d305007a222ffebf",
+      "sha256": "8fa9fd7962c9f940045b81cf6b991e7c1057c1838e3f9cc6d305007a222ffebf"
+    },
+    {
+      "path": "skills/pdf/scripts/extract_form_field_info.py",
+      "sourceSha256": "bb235b36f497bbb1c7c6821cecf527bbba7213520de11219da99f7b13a38c109",
+      "sha256": "bb235b36f497bbb1c7c6821cecf527bbba7213520de11219da99f7b13a38c109"
+    },
+    {
+      "path": "skills/pdf/scripts/extract_form_structure.py",
+      "sourceSha256": "6814e3fe8f78c2b16d766c132b5a727ff7a31b71d76a7d46bd6e40fe50bc97c5",
+      "sha256": "6814e3fe8f78c2b16d766c132b5a727ff7a31b71d76a7d46bd6e40fe50bc97c5"
+    },
+    {
+      "path": "skills/pdf/scripts/fill_fillable_fields.py",
+      "sourceSha256": "d140872c2e92e41b1e05370ae8d270c5b7f5ebdf55d9905f03bc974a9c708ff5",
+      "sha256": "d140872c2e92e41b1e05370ae8d270c5b7f5ebdf55d9905f03bc974a9c708ff5"
+    },
+    {
+      "path": "skills/pdf/scripts/fill_pdf_form_with_annotations.py",
+      "sourceSha256": "8a56e063a49ed53c0b0e1d312ecf8023af76816ed139486ec3b539873de202fd",
+      "sha256": "8a56e063a49ed53c0b0e1d312ecf8023af76816ed139486ec3b539873de202fd"
+    },
+    {
+      "path": "skills/pdf/SKILL.md",
+      "sourceSha256": "9f78b8359fbd4943ad260a7a1e436e5a96503406d6c34e99f69223d647d85b9c",
+      "sha256": "80ae5d953ce5343b1737e99524840c9ecde651621e681c105802fc463e03aaea"
+    },
+    {
+      "path": "skills/pptx/editing.md",
+      "sourceSha256": "6cb47c3ab17e60b7de37e83131c409ef5a90a01bfb54e999905a9c9f7dd88e68",
+      "sha256": "6cb47c3ab17e60b7de37e83131c409ef5a90a01bfb54e999905a9c9f7dd88e68"
+    },
+    {
+      "path": "skills/pptx/LICENSE.txt",
+      "sourceSha256": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa",
+      "sha256": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa"
+    },
+    {
+      "path": "skills/pptx/pptxgenjs.md",
+      "sourceSha256": "9539534d92b7170813b735a448750df3580390da2da6c52a02b687ed53ecba86",
+      "sha256": "9539534d92b7170813b735a448750df3580390da2da6c52a02b687ed53ecba86"
+    },
+    {
+      "path": "skills/pptx/scripts/__init__.py",
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "skills/pptx/scripts/add_slide.py",
+      "sourceSha256": "04233ba3932c6b8611677347891616456e243cc09b7f9769408b8c83d9acfe64",
+      "sha256": "04233ba3932c6b8611677347891616456e243cc09b7f9769408b8c83d9acfe64"
+    },
+    {
+      "path": "skills/pptx/scripts/clean.py",
+      "sourceSha256": "3e3966a17f488a1ddc7145f0b7ec9f25595afa1f3a427ab05e610f1a328feea9",
+      "sha256": "3e3966a17f488a1ddc7145f0b7ec9f25595afa1f3a427ab05e610f1a328feea9"
+    },
+    {
+      "path": "skills/pptx/scripts/office/helpers/__init__.py",
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "skills/pptx/scripts/office/helpers/merge_runs.py",
+      "sourceSha256": "7c40ed838b88639c51f9ffdcfd564b568f26832b78fe44008c0e01b742669ca7",
+      "sha256": "7c40ed838b88639c51f9ffdcfd564b568f26832b78fe44008c0e01b742669ca7"
+    },
+    {
+      "path": "skills/pptx/scripts/office/helpers/simplify_redlines.py",
+      "sourceSha256": "560cb55978a834c505406eb18e2c61f62f998fc7a2d8e9721b9c563b42597896",
+      "sha256": "560cb55978a834c505406eb18e2c61f62f998fc7a2d8e9721b9c563b42597896"
+    },
+    {
+      "path": "skills/pptx/scripts/office/pack.py",
+      "sourceSha256": "b1800987e568261a31f462df8e1303d386e9e6ccc11a75ef46e60cc528c20683",
+      "sha256": "b1800987e568261a31f462df8e1303d386e9e6ccc11a75ef46e60cc528c20683"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+      "sourceSha256": "9e0b7209fc69ab11987900404540969976000c5ebe4d4f58c43dc3842886bf3a",
+      "sha256": "9e0b7209fc69ab11987900404540969976000c5ebe4d4f58c43dc3842886bf3a"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+      "sourceSha256": "451958454e8588dfc7cd945981ada142ca06ff3307937f5700df059c2b307fa8",
+      "sha256": "451958454e8588dfc7cd945981ada142ca06ff3307937f5700df059c2b307fa8"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
+      "sourceSha256": "6de111e11403f7cd49027400755bae0ea1cabef2815f09bd40a24f0017613b24",
+      "sha256": "6de111e11403f7cd49027400755bae0ea1cabef2815f09bd40a24f0017613b24"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
+      "sourceSha256": "f565adfef5a502044abc3a9153e157edc25af78304d335994afb958874b15e26",
+      "sha256": "f565adfef5a502044abc3a9153e157edc25af78304d335994afb958874b15e26"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+      "sourceSha256": "41b93bd8857cc68b1e43be2806a872d736a9bdd6566900062d8fdb57d7bbb354",
+      "sha256": "41b93bd8857cc68b1e43be2806a872d736a9bdd6566900062d8fdb57d7bbb354"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+      "sourceSha256": "3fd0586f2637b98bb9886f0e0b67d89e1cc987c2d158cc7deb5f5b9890ced412",
+      "sha256": "3fd0586f2637b98bb9886f0e0b67d89e1cc987c2d158cc7deb5f5b9890ced412"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+      "sourceSha256": "29b254ee0d10414a8504b5a08149c7baec35a60d5ff607d6b3f492aa36815f40",
+      "sha256": "29b254ee0d10414a8504b5a08149c7baec35a60d5ff607d6b3f492aa36815f40"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+      "sourceSha256": "5cb76dabd8b97d1e9308a1700b90c20139be4d50792d21a7f09789f5cccd6026",
+      "sha256": "5cb76dabd8b97d1e9308a1700b90c20139be4d50792d21a7f09789f5cccd6026"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+      "sourceSha256": "5375417f0f5394b8dd1a7035b9679151f19a6b65df309dec10cfb4a420cb00e9",
+      "sha256": "5375417f0f5394b8dd1a7035b9679151f19a6b65df309dec10cfb4a420cb00e9"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+      "sourceSha256": "5d389d42befbebd91945d620242347caecd3367f9a3a7cf8d97949507ae1f53c",
+      "sha256": "5d389d42befbebd91945d620242347caecd3367f9a3a7cf8d97949507ae1f53c"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+      "sourceSha256": "b4532b6d258832953fbb3ee4c711f4fe25d3faf46a10644b2505f17010d01e88",
+      "sha256": "b4532b6d258832953fbb3ee4c711f4fe25d3faf46a10644b2505f17010d01e88"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+      "sourceSha256": "bdad416b096b61d37b71603b2c949484f9070c830bdaeba93bf35e15c8900614",
+      "sha256": "bdad416b096b61d37b71603b2c949484f9070c830bdaeba93bf35e15c8900614"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+      "sourceSha256": "d173c3e5d61e42e2e3a97226c632fd2ab7cc481fc4e492365b87024ab546daff",
+      "sha256": "d173c3e5d61e42e2e3a97226c632fd2ab7cc481fc4e492365b87024ab546daff"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+      "sourceSha256": "3c6709101c6aaa82888df5d8795c33f9e857196790eb320d9194e64be2b6bdd8",
+      "sha256": "3c6709101c6aaa82888df5d8795c33f9e857196790eb320d9194e64be2b6bdd8"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+      "sourceSha256": "0b364451dc36a48dd6dae0f3b6ada05fd9b71e5208211f8ee5537d7e51a587e2",
+      "sha256": "0b364451dc36a48dd6dae0f3b6ada05fd9b71e5208211f8ee5537d7e51a587e2"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+      "sourceSha256": "e2abacbb9a55ce1365f8961bc1b1395bbc811e512b111000d8c333f98458dece",
+      "sha256": "e2abacbb9a55ce1365f8961bc1b1395bbc811e512b111000d8c333f98458dece"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+      "sourceSha256": "0ef4bb354ff44b923564c4ddbdda5987919d220225129ec94614a618ceafc281",
+      "sha256": "0ef4bb354ff44b923564c4ddbdda5987919d220225129ec94614a618ceafc281"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+      "sourceSha256": "0d103b99a4a8652f8871552a69d42d2a3760ac6a5e3ef02d979c4273257ff6a4",
+      "sha256": "0d103b99a4a8652f8871552a69d42d2a3760ac6a5e3ef02d979c4273257ff6a4"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+      "sourceSha256": "9c085407751b9061c1f996f6c39ce58451be22a8d334f09175f0e89e42736285",
+      "sha256": "9c085407751b9061c1f996f6c39ce58451be22a8d334f09175f0e89e42736285"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+      "sourceSha256": "bc92e36ccd233722d4c5869bec71ddc7b12e2df56059942cce5a39065cc9c368",
+      "sha256": "bc92e36ccd233722d4c5869bec71ddc7b12e2df56059942cce5a39065cc9c368"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+      "sourceSha256": "7b5b7413e2c895b1e148e82e292a117d53c7ec65b0696c992edca57b61b4a74b",
+      "sha256": "7b5b7413e2c895b1e148e82e292a117d53c7ec65b0696c992edca57b61b4a74b"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+      "sourceSha256": "3213ef1631606250f5010b42cad7ef716f7c59426367798e33c374c0ec391d3a",
+      "sha256": "3213ef1631606250f5010b42cad7ef716f7c59426367798e33c374c0ec391d3a"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+      "sourceSha256": "12264f3c03d738311cd9237d212f1c07479e70f0cbe1ae725d29b36539aef637",
+      "sha256": "12264f3c03d738311cd9237d212f1c07479e70f0cbe1ae725d29b36539aef637"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+      "sourceSha256": "beffeed56945c22a77440122c8bdc426f3fcbe7f3b12ea0976c770d1f8d54578",
+      "sha256": "beffeed56945c22a77440122c8bdc426f3fcbe7f3b12ea0976c770d1f8d54578"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+      "sourceSha256": "f5ee623b08b6a66935e5aced2f5d8ad0fc71bf9e8e833cd490150c0fa94b8763",
+      "sha256": "f5ee623b08b6a66935e5aced2f5d8ad0fc71bf9e8e833cd490150c0fa94b8763"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+      "sourceSha256": "585bedc1313b40888dcc544cb74cd939a105ee674f3b1d3aa1cc6d34f70ff155",
+      "sha256": "585bedc1313b40888dcc544cb74cd939a105ee674f3b1d3aa1cc6d34f70ff155"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+      "sourceSha256": "133c9f64a5c5d573b78d0a474122b22506d8eadb5e063f67cdbbb8fa2f161d0e",
+      "sha256": "133c9f64a5c5d573b78d0a474122b22506d8eadb5e063f67cdbbb8fa2f161d0e"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+      "sourceSha256": "6bdeb169c3717eb01108853bd9fc5a3750fb1fa5b82abbdd854d49855a40f519",
+      "sha256": "6bdeb169c3717eb01108853bd9fc5a3750fb1fa5b82abbdd854d49855a40f519"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+      "sourceSha256": "475dcae1e7d1ea46232db6f8481040c15e53a52a3c256831d3df204212b0e831",
+      "sha256": "475dcae1e7d1ea46232db6f8481040c15e53a52a3c256831d3df204212b0e831"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+      "sourceSha256": "c2dd9f61f892deae6acd8d20771ea79b12018af25f3bf8d06639c8542d218cfd",
+      "sha256": "c2dd9f61f892deae6acd8d20771ea79b12018af25f3bf8d06639c8542d218cfd"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+      "sourceSha256": "a539aa2fb154fa50e0f5cc97e6ad7cbc66f8ec3e3746f61ec6a8b0d5d15ecdf2",
+      "sha256": "a539aa2fb154fa50e0f5cc97e6ad7cbc66f8ec3e3746f61ec6a8b0d5d15ecdf2"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/mce/mc.xsd",
+      "sourceSha256": "3a37e461ecf5a8670fdec34029703401f8728ab9c96ec1739a6ae58d55212413",
+      "sha256": "3a37e461ecf5a8670fdec34029703401f8728ab9c96ec1739a6ae58d55212413"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/microsoft/wml-2010.xsd",
+      "sourceSha256": "568b26ee156cb9549aa439ca2158965f77b7c1602b7e0316f40ac6cf586e35f2",
+      "sha256": "568b26ee156cb9549aa439ca2158965f77b7c1602b7e0316f40ac6cf586e35f2"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/microsoft/wml-2012.xsd",
+      "sourceSha256": "0fa75578a000439a7988ba0c59fdc69f774bbd416cbacc14d07125b3f686cb74",
+      "sha256": "0fa75578a000439a7988ba0c59fdc69f774bbd416cbacc14d07125b3f686cb74"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/microsoft/wml-2018.xsd",
+      "sourceSha256": "be0ff793a22dd31384650c3a4da14c2fa8062751c2e97b0e5ee852bda13c60ad",
+      "sha256": "be0ff793a22dd31384650c3a4da14c2fa8062751c2e97b0e5ee852bda13c60ad"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+      "sourceSha256": "fddc2b880cabb9005aebbc7e783e53c19fec1c03df7d0e2f2076a33a0fdfd081",
+      "sha256": "fddc2b880cabb9005aebbc7e783e53c19fec1c03df7d0e2f2076a33a0fdfd081"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+      "sourceSha256": "127ca209fa73d7cb708449cb355c871867948a96e4a74f7bf5811ef62d17991d",
+      "sha256": "127ca209fa73d7cb708449cb355c871867948a96e4a74f7bf5811ef62d17991d"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+      "sourceSha256": "842e7163409c8d74f4d7088a8bc99500d80bc75332681a0980055b08f374a604",
+      "sha256": "842e7163409c8d74f4d7088a8bc99500d80bc75332681a0980055b08f374a604"
+    },
+    {
+      "path": "skills/pptx/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+      "sourceSha256": "16f6f8072249f431370723c2cd8974672e0d9c897e00e97dd918079df934871b",
+      "sha256": "16f6f8072249f431370723c2cd8974672e0d9c897e00e97dd918079df934871b"
+    },
+    {
+      "path": "skills/pptx/scripts/office/soffice.py",
+      "sourceSha256": "a3e21840e29e32f947d5286028931b96eaf2dee63f75d883b8eb19c943c80aa0",
+      "sha256": "a3e21840e29e32f947d5286028931b96eaf2dee63f75d883b8eb19c943c80aa0"
+    },
+    {
+      "path": "skills/pptx/scripts/office/unpack.py",
+      "sourceSha256": "83f69cecc87910183654c06345837244402e8a99edbf3bdddc1cf72f11304b62",
+      "sha256": "83f69cecc87910183654c06345837244402e8a99edbf3bdddc1cf72f11304b62"
+    },
+    {
+      "path": "skills/pptx/scripts/office/validate.py",
+      "sourceSha256": "1aef24f8e316965a0584c30859776bd2c82a9fb69f72d79cfed041119cf95514",
+      "sha256": "1aef24f8e316965a0584c30859776bd2c82a9fb69f72d79cfed041119cf95514"
+    },
+    {
+      "path": "skills/pptx/scripts/office/validators/__init__.py",
+      "sourceSha256": "83e0f035c5abea238d3f2c3968afbd511ed022b527b7c9cb60a9434cc34ff987",
+      "sha256": "83e0f035c5abea238d3f2c3968afbd511ed022b527b7c9cb60a9434cc34ff987"
+    },
+    {
+      "path": "skills/pptx/scripts/office/validators/base.py",
+      "sourceSha256": "d6358b67252df4dbfe4fa6647423a765960c949346ef6a8c4eb8722bb1108d25",
+      "sha256": "d6358b67252df4dbfe4fa6647423a765960c949346ef6a8c4eb8722bb1108d25"
+    },
+    {
+      "path": "skills/pptx/scripts/office/validators/docx.py",
+      "sourceSha256": "0ef04ce86b2e6b6a1cb088c0276fd0bd5b770d96fdfe7a6cc73d005feb3f0345",
+      "sha256": "0ef04ce86b2e6b6a1cb088c0276fd0bd5b770d96fdfe7a6cc73d005feb3f0345"
+    },
+    {
+      "path": "skills/pptx/scripts/office/validators/pptx.py",
+      "sourceSha256": "f937961e62a5fa0d002b8dc51a4c4e2cd8fcd59fe65853fa54edaca3fe99eccc",
+      "sha256": "f937961e62a5fa0d002b8dc51a4c4e2cd8fcd59fe65853fa54edaca3fe99eccc"
+    },
+    {
+      "path": "skills/pptx/scripts/office/validators/redlining.py",
+      "sourceSha256": "f4c33fdb9da0651d1d9aa76f0d5294cc9955869339ae131b2f75f3b2e366cb40",
+      "sha256": "f4c33fdb9da0651d1d9aa76f0d5294cc9955869339ae131b2f75f3b2e366cb40"
+    },
+    {
+      "path": "skills/pptx/scripts/thumbnail.py",
+      "sourceSha256": "e959ecd4f19735161218bc44d0648a46da17874323fb3e19c2e9cb50cefe6ce7",
+      "sha256": "e959ecd4f19735161218bc44d0648a46da17874323fb3e19c2e9cb50cefe6ce7"
+    },
+    {
+      "path": "skills/pptx/SKILL.md",
+      "sourceSha256": "e5b0df918cbe9d62508b3cf808d73899633f82fc19f6258a25ef9f0de7e62125",
+      "sha256": "d96674982e5801b24a8a774300d6298f99b096534e7e1c1430d7b5bc31f98459"
+    },
+    {
+      "path": "skills/theme-factory/LICENSE.txt",
+      "sourceSha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "path": "skills/theme-factory/SKILL.md",
+      "sourceSha256": "c35893e221e28895c52143cc11bf30e41a44817796b39d4b15727dadc9796552",
+      "sha256": "dfdaf62de2873a371dd3368cc4d3579bdd82a167c843b84837d10eda0b26e91e"
+    },
+    {
+      "path": "skills/theme-factory/theme-showcase.pdf",
+      "sourceSha256": "3e126eca9fe99088051f7cb984c97cedb31c7d9e09ce0ba5d61bd01e70a0d253",
+      "sha256": "3e126eca9fe99088051f7cb984c97cedb31c7d9e09ce0ba5d61bd01e70a0d253"
+    },
+    {
+      "path": "skills/theme-factory/themes/arctic-frost.md",
+      "sourceSha256": "868a75a8fb5b2a61d0f0ab87c437fe632d3cbab6371c418f06aa2816ac109ae0",
+      "sha256": "868a75a8fb5b2a61d0f0ab87c437fe632d3cbab6371c418f06aa2816ac109ae0"
+    },
+    {
+      "path": "skills/theme-factory/themes/botanical-garden.md",
+      "sourceSha256": "222cb8e7496abc9b75b29453c809fb9839e7e4b01fa45deecdd896b38d087765",
+      "sha256": "222cb8e7496abc9b75b29453c809fb9839e7e4b01fa45deecdd896b38d087765"
+    },
+    {
+      "path": "skills/theme-factory/themes/desert-rose.md",
+      "sourceSha256": "bd065b8629be3b64655183927e248e3d892a27b8d184b009cfba89c96102744f",
+      "sha256": "bd065b8629be3b64655183927e248e3d892a27b8d184b009cfba89c96102744f"
+    },
+    {
+      "path": "skills/theme-factory/themes/forest-canopy.md",
+      "sourceSha256": "ecb722efa24688e808b5bf323c334ca2349e989cfddd72ce8400ce5d4c4bd3e7",
+      "sha256": "ecb722efa24688e808b5bf323c334ca2349e989cfddd72ce8400ce5d4c4bd3e7"
+    },
+    {
+      "path": "skills/theme-factory/themes/golden-hour.md",
+      "sourceSha256": "3444a00df971d3c2f06b665e21a2e9eb5d7d7d6f6281f2758773b8345776a139",
+      "sha256": "3444a00df971d3c2f06b665e21a2e9eb5d7d7d6f6281f2758773b8345776a139"
+    },
+    {
+      "path": "skills/theme-factory/themes/midnight-galaxy.md",
+      "sourceSha256": "0e134c4c0324df41e34ac314269aa6829cd378cf3c304b31858d0cd158d2f944",
+      "sha256": "0e134c4c0324df41e34ac314269aa6829cd378cf3c304b31858d0cd158d2f944"
+    },
+    {
+      "path": "skills/theme-factory/themes/modern-minimalist.md",
+      "sourceSha256": "b8bc572b75948d4df69c401af703b9262ed6820a3ceb270da30a529e92763614",
+      "sha256": "b8bc572b75948d4df69c401af703b9262ed6820a3ceb270da30a529e92763614"
+    },
+    {
+      "path": "skills/theme-factory/themes/ocean-depths.md",
+      "sourceSha256": "a7ad8eec85341dbfcb2665da827a4b6a4baee08ab3335ac02421f18e6b46b2e2",
+      "sha256": "a7ad8eec85341dbfcb2665da827a4b6a4baee08ab3335ac02421f18e6b46b2e2"
+    },
+    {
+      "path": "skills/theme-factory/themes/sunset-boulevard.md",
+      "sourceSha256": "658af11ab04be4923692571081ffb42a428141ae537703117b9236d9f8ee22a3",
+      "sha256": "658af11ab04be4923692571081ffb42a428141ae537703117b9236d9f8ee22a3"
+    },
+    {
+      "path": "skills/theme-factory/themes/tech-innovation.md",
+      "sourceSha256": "183648163026dd5eeba3df5effa335b55ba333c3ee1fe215278605e55f40a52a",
+      "sha256": "183648163026dd5eeba3df5effa335b55ba333c3ee1fe215278605e55f40a52a"
+    },
+    {
+      "path": "skills/web-artifacts-builder/LICENSE.txt",
+      "sourceSha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "path": "skills/web-artifacts-builder/scripts/bundle-artifact.sh",
+      "sourceSha256": "abf0e480bf6585b56fab8526a407dfb7dc740812bddd70c636e1e8f3df5f9618",
+      "sha256": "abf0e480bf6585b56fab8526a407dfb7dc740812bddd70c636e1e8f3df5f9618"
+    },
+    {
+      "path": "skills/web-artifacts-builder/scripts/init-artifact.sh",
+      "sourceSha256": "22e8399f2d7ab46e6a99b206482b873059d10614920bc6b40ab8bb8d83ecef1f",
+      "sha256": "22e8399f2d7ab46e6a99b206482b873059d10614920bc6b40ab8bb8d83ecef1f"
+    },
+    {
+      "path": "skills/web-artifacts-builder/scripts/shadcn-components.tar.gz",
+      "sourceSha256": "1296f069e825de7933de7e8ac63672495cacce3f88f2dc45554dbcddbcbca60f",
+      "sha256": "1296f069e825de7933de7e8ac63672495cacce3f88f2dc45554dbcddbcbca60f"
+    },
+    {
+      "path": "skills/web-artifacts-builder/SKILL.md",
+      "sourceSha256": "0d277e89fcfe1ca3c09d91ebe9113c17c4d6794eaddad1212235766ee3eaa4f5",
+      "sha256": "e0b4b98de50948daceb597e3f277d97d964a262327283a8c57c7d54857f2ce55"
+    },
+    {
+      "path": "skills/xlsx/LICENSE.txt",
+      "sourceSha256": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa",
+      "sha256": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/helpers/__init__.py",
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/helpers/merge_runs.py",
+      "sourceSha256": "7c40ed838b88639c51f9ffdcfd564b568f26832b78fe44008c0e01b742669ca7",
+      "sha256": "7c40ed838b88639c51f9ffdcfd564b568f26832b78fe44008c0e01b742669ca7"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/helpers/simplify_redlines.py",
+      "sourceSha256": "560cb55978a834c505406eb18e2c61f62f998fc7a2d8e9721b9c563b42597896",
+      "sha256": "560cb55978a834c505406eb18e2c61f62f998fc7a2d8e9721b9c563b42597896"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/pack.py",
+      "sourceSha256": "b1800987e568261a31f462df8e1303d386e9e6ccc11a75ef46e60cc528c20683",
+      "sha256": "b1800987e568261a31f462df8e1303d386e9e6ccc11a75ef46e60cc528c20683"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+      "sourceSha256": "9e0b7209fc69ab11987900404540969976000c5ebe4d4f58c43dc3842886bf3a",
+      "sha256": "9e0b7209fc69ab11987900404540969976000c5ebe4d4f58c43dc3842886bf3a"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+      "sourceSha256": "451958454e8588dfc7cd945981ada142ca06ff3307937f5700df059c2b307fa8",
+      "sha256": "451958454e8588dfc7cd945981ada142ca06ff3307937f5700df059c2b307fa8"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
+      "sourceSha256": "6de111e11403f7cd49027400755bae0ea1cabef2815f09bd40a24f0017613b24",
+      "sha256": "6de111e11403f7cd49027400755bae0ea1cabef2815f09bd40a24f0017613b24"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
+      "sourceSha256": "f565adfef5a502044abc3a9153e157edc25af78304d335994afb958874b15e26",
+      "sha256": "f565adfef5a502044abc3a9153e157edc25af78304d335994afb958874b15e26"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+      "sourceSha256": "41b93bd8857cc68b1e43be2806a872d736a9bdd6566900062d8fdb57d7bbb354",
+      "sha256": "41b93bd8857cc68b1e43be2806a872d736a9bdd6566900062d8fdb57d7bbb354"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+      "sourceSha256": "3fd0586f2637b98bb9886f0e0b67d89e1cc987c2d158cc7deb5f5b9890ced412",
+      "sha256": "3fd0586f2637b98bb9886f0e0b67d89e1cc987c2d158cc7deb5f5b9890ced412"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+      "sourceSha256": "29b254ee0d10414a8504b5a08149c7baec35a60d5ff607d6b3f492aa36815f40",
+      "sha256": "29b254ee0d10414a8504b5a08149c7baec35a60d5ff607d6b3f492aa36815f40"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+      "sourceSha256": "5cb76dabd8b97d1e9308a1700b90c20139be4d50792d21a7f09789f5cccd6026",
+      "sha256": "5cb76dabd8b97d1e9308a1700b90c20139be4d50792d21a7f09789f5cccd6026"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+      "sourceSha256": "5375417f0f5394b8dd1a7035b9679151f19a6b65df309dec10cfb4a420cb00e9",
+      "sha256": "5375417f0f5394b8dd1a7035b9679151f19a6b65df309dec10cfb4a420cb00e9"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+      "sourceSha256": "5d389d42befbebd91945d620242347caecd3367f9a3a7cf8d97949507ae1f53c",
+      "sha256": "5d389d42befbebd91945d620242347caecd3367f9a3a7cf8d97949507ae1f53c"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+      "sourceSha256": "b4532b6d258832953fbb3ee4c711f4fe25d3faf46a10644b2505f17010d01e88",
+      "sha256": "b4532b6d258832953fbb3ee4c711f4fe25d3faf46a10644b2505f17010d01e88"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+      "sourceSha256": "bdad416b096b61d37b71603b2c949484f9070c830bdaeba93bf35e15c8900614",
+      "sha256": "bdad416b096b61d37b71603b2c949484f9070c830bdaeba93bf35e15c8900614"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+      "sourceSha256": "d173c3e5d61e42e2e3a97226c632fd2ab7cc481fc4e492365b87024ab546daff",
+      "sha256": "d173c3e5d61e42e2e3a97226c632fd2ab7cc481fc4e492365b87024ab546daff"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+      "sourceSha256": "3c6709101c6aaa82888df5d8795c33f9e857196790eb320d9194e64be2b6bdd8",
+      "sha256": "3c6709101c6aaa82888df5d8795c33f9e857196790eb320d9194e64be2b6bdd8"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+      "sourceSha256": "0b364451dc36a48dd6dae0f3b6ada05fd9b71e5208211f8ee5537d7e51a587e2",
+      "sha256": "0b364451dc36a48dd6dae0f3b6ada05fd9b71e5208211f8ee5537d7e51a587e2"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+      "sourceSha256": "e2abacbb9a55ce1365f8961bc1b1395bbc811e512b111000d8c333f98458dece",
+      "sha256": "e2abacbb9a55ce1365f8961bc1b1395bbc811e512b111000d8c333f98458dece"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+      "sourceSha256": "0ef4bb354ff44b923564c4ddbdda5987919d220225129ec94614a618ceafc281",
+      "sha256": "0ef4bb354ff44b923564c4ddbdda5987919d220225129ec94614a618ceafc281"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+      "sourceSha256": "0d103b99a4a8652f8871552a69d42d2a3760ac6a5e3ef02d979c4273257ff6a4",
+      "sha256": "0d103b99a4a8652f8871552a69d42d2a3760ac6a5e3ef02d979c4273257ff6a4"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+      "sourceSha256": "9c085407751b9061c1f996f6c39ce58451be22a8d334f09175f0e89e42736285",
+      "sha256": "9c085407751b9061c1f996f6c39ce58451be22a8d334f09175f0e89e42736285"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+      "sourceSha256": "bc92e36ccd233722d4c5869bec71ddc7b12e2df56059942cce5a39065cc9c368",
+      "sha256": "bc92e36ccd233722d4c5869bec71ddc7b12e2df56059942cce5a39065cc9c368"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+      "sourceSha256": "7b5b7413e2c895b1e148e82e292a117d53c7ec65b0696c992edca57b61b4a74b",
+      "sha256": "7b5b7413e2c895b1e148e82e292a117d53c7ec65b0696c992edca57b61b4a74b"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+      "sourceSha256": "3213ef1631606250f5010b42cad7ef716f7c59426367798e33c374c0ec391d3a",
+      "sha256": "3213ef1631606250f5010b42cad7ef716f7c59426367798e33c374c0ec391d3a"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+      "sourceSha256": "12264f3c03d738311cd9237d212f1c07479e70f0cbe1ae725d29b36539aef637",
+      "sha256": "12264f3c03d738311cd9237d212f1c07479e70f0cbe1ae725d29b36539aef637"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+      "sourceSha256": "beffeed56945c22a77440122c8bdc426f3fcbe7f3b12ea0976c770d1f8d54578",
+      "sha256": "beffeed56945c22a77440122c8bdc426f3fcbe7f3b12ea0976c770d1f8d54578"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+      "sourceSha256": "f5ee623b08b6a66935e5aced2f5d8ad0fc71bf9e8e833cd490150c0fa94b8763",
+      "sha256": "f5ee623b08b6a66935e5aced2f5d8ad0fc71bf9e8e833cd490150c0fa94b8763"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+      "sourceSha256": "585bedc1313b40888dcc544cb74cd939a105ee674f3b1d3aa1cc6d34f70ff155",
+      "sha256": "585bedc1313b40888dcc544cb74cd939a105ee674f3b1d3aa1cc6d34f70ff155"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+      "sourceSha256": "133c9f64a5c5d573b78d0a474122b22506d8eadb5e063f67cdbbb8fa2f161d0e",
+      "sha256": "133c9f64a5c5d573b78d0a474122b22506d8eadb5e063f67cdbbb8fa2f161d0e"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+      "sourceSha256": "6bdeb169c3717eb01108853bd9fc5a3750fb1fa5b82abbdd854d49855a40f519",
+      "sha256": "6bdeb169c3717eb01108853bd9fc5a3750fb1fa5b82abbdd854d49855a40f519"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+      "sourceSha256": "475dcae1e7d1ea46232db6f8481040c15e53a52a3c256831d3df204212b0e831",
+      "sha256": "475dcae1e7d1ea46232db6f8481040c15e53a52a3c256831d3df204212b0e831"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+      "sourceSha256": "c2dd9f61f892deae6acd8d20771ea79b12018af25f3bf8d06639c8542d218cfd",
+      "sha256": "c2dd9f61f892deae6acd8d20771ea79b12018af25f3bf8d06639c8542d218cfd"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+      "sourceSha256": "a539aa2fb154fa50e0f5cc97e6ad7cbc66f8ec3e3746f61ec6a8b0d5d15ecdf2",
+      "sha256": "a539aa2fb154fa50e0f5cc97e6ad7cbc66f8ec3e3746f61ec6a8b0d5d15ecdf2"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/mce/mc.xsd",
+      "sourceSha256": "3a37e461ecf5a8670fdec34029703401f8728ab9c96ec1739a6ae58d55212413",
+      "sha256": "3a37e461ecf5a8670fdec34029703401f8728ab9c96ec1739a6ae58d55212413"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/microsoft/wml-2010.xsd",
+      "sourceSha256": "568b26ee156cb9549aa439ca2158965f77b7c1602b7e0316f40ac6cf586e35f2",
+      "sha256": "568b26ee156cb9549aa439ca2158965f77b7c1602b7e0316f40ac6cf586e35f2"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/microsoft/wml-2012.xsd",
+      "sourceSha256": "0fa75578a000439a7988ba0c59fdc69f774bbd416cbacc14d07125b3f686cb74",
+      "sha256": "0fa75578a000439a7988ba0c59fdc69f774bbd416cbacc14d07125b3f686cb74"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/microsoft/wml-2018.xsd",
+      "sourceSha256": "be0ff793a22dd31384650c3a4da14c2fa8062751c2e97b0e5ee852bda13c60ad",
+      "sha256": "be0ff793a22dd31384650c3a4da14c2fa8062751c2e97b0e5ee852bda13c60ad"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+      "sourceSha256": "fddc2b880cabb9005aebbc7e783e53c19fec1c03df7d0e2f2076a33a0fdfd081",
+      "sha256": "fddc2b880cabb9005aebbc7e783e53c19fec1c03df7d0e2f2076a33a0fdfd081"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+      "sourceSha256": "127ca209fa73d7cb708449cb355c871867948a96e4a74f7bf5811ef62d17991d",
+      "sha256": "127ca209fa73d7cb708449cb355c871867948a96e4a74f7bf5811ef62d17991d"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+      "sourceSha256": "842e7163409c8d74f4d7088a8bc99500d80bc75332681a0980055b08f374a604",
+      "sha256": "842e7163409c8d74f4d7088a8bc99500d80bc75332681a0980055b08f374a604"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+      "sourceSha256": "16f6f8072249f431370723c2cd8974672e0d9c897e00e97dd918079df934871b",
+      "sha256": "16f6f8072249f431370723c2cd8974672e0d9c897e00e97dd918079df934871b"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/soffice.py",
+      "sourceSha256": "a3e21840e29e32f947d5286028931b96eaf2dee63f75d883b8eb19c943c80aa0",
+      "sha256": "a3e21840e29e32f947d5286028931b96eaf2dee63f75d883b8eb19c943c80aa0"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/unpack.py",
+      "sourceSha256": "83f69cecc87910183654c06345837244402e8a99edbf3bdddc1cf72f11304b62",
+      "sha256": "83f69cecc87910183654c06345837244402e8a99edbf3bdddc1cf72f11304b62"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/validate.py",
+      "sourceSha256": "1aef24f8e316965a0584c30859776bd2c82a9fb69f72d79cfed041119cf95514",
+      "sha256": "1aef24f8e316965a0584c30859776bd2c82a9fb69f72d79cfed041119cf95514"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/validators/__init__.py",
+      "sourceSha256": "83e0f035c5abea238d3f2c3968afbd511ed022b527b7c9cb60a9434cc34ff987",
+      "sha256": "83e0f035c5abea238d3f2c3968afbd511ed022b527b7c9cb60a9434cc34ff987"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/validators/base.py",
+      "sourceSha256": "d6358b67252df4dbfe4fa6647423a765960c949346ef6a8c4eb8722bb1108d25",
+      "sha256": "d6358b67252df4dbfe4fa6647423a765960c949346ef6a8c4eb8722bb1108d25"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/validators/docx.py",
+      "sourceSha256": "0ef04ce86b2e6b6a1cb088c0276fd0bd5b770d96fdfe7a6cc73d005feb3f0345",
+      "sha256": "0ef04ce86b2e6b6a1cb088c0276fd0bd5b770d96fdfe7a6cc73d005feb3f0345"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/validators/pptx.py",
+      "sourceSha256": "f937961e62a5fa0d002b8dc51a4c4e2cd8fcd59fe65853fa54edaca3fe99eccc",
+      "sha256": "f937961e62a5fa0d002b8dc51a4c4e2cd8fcd59fe65853fa54edaca3fe99eccc"
+    },
+    {
+      "path": "skills/xlsx/scripts/office/validators/redlining.py",
+      "sourceSha256": "f4c33fdb9da0651d1d9aa76f0d5294cc9955869339ae131b2f75f3b2e366cb40",
+      "sha256": "f4c33fdb9da0651d1d9aa76f0d5294cc9955869339ae131b2f75f3b2e366cb40"
+    },
+    {
+      "path": "skills/xlsx/scripts/recalc.py",
+      "sourceSha256": "cf419d15e02965aeaec17773c05b61303f7f520f67fa2696547e7da07502eac7",
+      "sha256": "47c45991c6c7e90980cb021bb7561e026204b8243a246d570348da4ca8bcc284"
+    },
+    {
+      "path": "skills/xlsx/SKILL.md",
+      "sourceSha256": "dd316db7785a6be12966c2a2d848931fbf5f518b3cdb0a66fa62ee835ead1cfc",
+      "sha256": "f5381992b95a8911992931450ded96cdac3be788e77cc4d85849c4f87280b158"
+    }
+  ]
+}

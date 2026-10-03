@@ -1,0 +1,28 @@
+services:
+  jiaozhixing-web:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    image: jiaozhixing-web:local
+    ports:
+      - "${JZX_HOST_PORT:-8080}:3030"
+    environment:
+      PORT: "3030"
+      JZX_SERVER_HOST: "0.0.0.0"
+      JZX_SERVER_WORKSPACE: "/workspace"
+      JZX_SERVER_AUTH_TOKEN: "${JZX_SERVER_AUTH_TOKEN:?Generate private access.env before deployment}"
+      JZX_SERVER_AUTH_EXPIRES_AT: "${JZX_SERVER_AUTH_EXPIRES_AT:?Set test access expiry}"
+    volumes:
+      # 首次由镜像中的虚构课程初始化；命名卷保留产物且不开放宿主目录。
+      - jzx-course-workspace:/workspace
+      - jzx-settings:/home/node/.zcode
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    pids_limit: 256
+
+volumes:
+  jzx-course-workspace:
+  jzx-settings:
