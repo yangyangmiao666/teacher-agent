@@ -1,4 +1,5 @@
 import { teachingCoursewarePatchSchema } from "./teachingCoursewareSchema.js";
+import { teachingExamSchema } from "./teachingExamSchema.js";
 /* oxlint-disable eslint(max-lines) -- 七子台 Markdown/JSON 解析集中维护，拆散会让别名表失同步。 */
 /**
  * 将智能体回复解析为教学工作台结构化补丁。
@@ -534,15 +535,17 @@ function parseJsonFence(kind: string, jsonText: string): TeachingApplyCandidate 
       };
     }
     if (normalized === "exam" || normalized === "exam-paper") {
-      const questions = Array.isArray(data.questions) ? data.questions : [];
+      // JSON 类型断言不会校验运行时数据；数字 id 曾在自动应用时触发 trim 崩溃。
+      const result = teachingExamSchema.safeParse(data);
+      if (!result.success) return null;
       return {
         kind: "exam",
         panelId: "exam-builder",
         confidence: 0.9,
-        fieldIds: ["questions", ...(data.title ? ["paperTitle"] : [])],
+        fieldIds: ["questions", ...(result.data.title ? ["paperTitle"] : [])],
         source: "json-fence",
-        questions: questions as TeachingApplyCandidate["questions"],
-        ...(typeof data.title === "string" ? { paperTitle: data.title } : {}),
+        questions: result.data.questions,
+        ...(result.data.title !== undefined ? { paperTitle: result.data.title } : {}),
       };
     }
     if (normalized === "review" || normalized === "homework-review") {
@@ -607,6 +610,12 @@ export function parseTeachingApplyCandidate(
       (!preferredPanelId || preferredPanelId === "courseware-editor")
     ) {
       // 已声明完整课件但结构非法时不能退回 Markdown 解析造成部分应用。
+      return null;
+    } else if (
+      ["exam", "exam-paper"].includes(fence.kind) &&
+      (!preferredPanelId || preferredPanelId === "exam-builder")
+    ) {
+      // 非法组卷 JSON 必须整份拒绝，不能从周围标题误解析成部分组卷或教案。
       return null;
     }
   }

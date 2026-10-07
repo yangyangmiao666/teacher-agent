@@ -1,5 +1,6 @@
 import { useTeachingWorkbenchStore } from "@/store/teachingWorkbenchStore.js";
 import type { TeachingApplyCandidate } from "@/teaching/teachingApplyParse.js";
+import { teachingExamSchema } from "@/teaching/teachingExamSchema.js";
 import type {
   ExamQuestion,
   HomeworkSubmission,
@@ -44,6 +45,15 @@ export function applyTeachingCandidate(input: {
   switchPanel?: boolean;
 }): { result: TeachingApplyResult; undo: TeachingUndoSnapshot } | null {
   const { workspacePath, workspaceIdentity, candidate } = input;
+  const exam =
+    candidate.kind === "exam"
+      ? teachingExamSchema.safeParse({
+          title: candidate.paperTitle,
+          questions: candidate.questions,
+        })
+      : null;
+  // 复用解析边界的校验，确保直接应用候选也不会写入半份试卷或非法 ID。
+  if (exam && !exam.success) return null;
   const switchPanel = input.switchPanel !== false;
   const store = useTeachingWorkbenchStore.getState();
   const key = workspaceKey(workspacePath, workspaceIdentity);
@@ -116,10 +126,10 @@ export function applyTeachingCandidate(input: {
       }
       summary = "已新建并填入实训材料";
     }
-  } else if (candidate.kind === "exam" && candidate.questions?.length) {
+  } else if (candidate.kind === "exam" && exam?.success) {
     const createdIds: string[] = [];
-    for (const question of candidate.questions) {
-      const id = question.id?.trim() || newId("q");
+    for (const question of exam.data.questions) {
+      const id = question.id || newId("q");
       const next: ExamQuestion = {
         id,
         type: question.type,
@@ -142,7 +152,7 @@ export function applyTeachingCandidate(input: {
         ...current,
         paper: {
           ...current.paper,
-          title: candidate.paperTitle?.trim() || current.paper.title,
+          title: exam.data.title?.trim() || current.paper.title,
           questionIds: mergedIds,
           updatedAt: Date.now(),
         },

@@ -70,6 +70,9 @@
 
 - 教案 / 课件 / 案例 / 实训：更新当前激活条目；若无则新建。
 - 组卷：解析题块写入题库并勾入试卷；可更新试卷标题。
+- 组卷 JSON（`jzx-exam` / `jzx-exam-paper`）在 `teachingApplyParse` 入口整份校验，手动和自动应用共用该入口；`teachingApplyActions` 在任何草稿写入前复用同一 schema 校验。题目 `id` 接受非空字符串（去首尾空白）或有限数字（转字符串）；缺失、null、空白 ID 由现有应用路径生成。布尔、对象、数组 ID 拒绝，不用隐式字符串化掩盖非法结构。
+- 题目必须包含合法题型、难度、字符串知识点 ID/标签、非空题干、字符串答案和有限正数分值；旧题型 `code` 仍映射为 `calc`。题目数组不能为空，规范化后重复的显式 ID 拒绝，避免静默覆盖。可选试卷标题必须为字符串。任何题目非法则整份拒绝，不部分写入，也不回退 Markdown 解析；回复正文仍可阅读。
+- 状态所有者仍为 `teachingWorkbenchStore`；题库、试卷选择、持久化与撤销沿用已有写入路径，不新增状态或修改会话/远端协议。已保存的草稿不重置；兼容边界仅为生成回复的解析和应用。
 - 评阅：按别名匹配或取首条作业，写入建议分与反馈。
 - 学情：解析表格/列表薄弱点，替换演示统计草稿。
 
@@ -79,6 +82,26 @@
 2. 右侧生成带 `## 教学目标` 等标题（或 `jzx-lesson` JSON）的回复后，出现「应用到左侧」；点击后左侧字段更新并闪动，可撤销。
 3. 置信度 ≥ 约 72% 且面板匹配时自动应用一次（同一 turn 不重复）。
 4. 七个子台均可完成「上下文注入 + 解析应用」闭环。
+5. 组卷完成回复带数字 ID 时自动应用正常，题库与试卷使用同一字符串 ID；手动应用走同一路径，撤销恢复应用前的全部草稿。非法 ID、字段类型、空题目数组及重复 ID 不改变草稿，也不触发区域错误；带 Markdown 标题的非法组卷 JSON 不降级应用。桌面/窄屏 Web 均覆盖数字 ID 自动应用和撤销。
+
+组卷回归入口：`pnpm exec tsx --tsconfig packages/ui/tsconfig.json --test packages/ui/test/teachingExamApply.test.ts`；浏览器场景：`node packages/web/test/teaching-exam-apply.e2e.mjs`。浏览器测试自启隔离 Vite，使用真实编辑器与应用坞，仅替换会话投影和文件 IO，不依赖模型或登录凭据。
+
+```mermaid
+sequenceDiagram
+  participant Reply as 会话完成回复
+  participant Parse as teachingApplyParse / 组卷 schema
+  participant Dock as TeachingApplyDock
+  participant Apply as teachingApplyActions
+  participant Store as teachingWorkbenchStore（草稿唯一所有者）
+  Reply->>Parse: 组卷 JSON
+  Parse->>Parse: 整份校验 / ID 规范化
+  Parse-->>Dock: 合法候选或 null
+  Dock->>Apply: 手动 / 完成态自动应用（既有 turn 去重）
+  Apply->>Parse: 写入前复用 schema
+  Apply->>Store: 题库 upsert + 试卷选择（既有路径）
+  Store-->>Dock: 应用结果与撤销快照
+  Dock->>Store: 撤销恢复快照
+```
 
 ## 验收
 
